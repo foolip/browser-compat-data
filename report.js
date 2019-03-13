@@ -33,11 +33,14 @@ const browserSupport = {};
 // Flatten a `__compat` object into just true/false/null.
 function flatten(compat) {
   const support = {};
-  for (const browser of ['chrome', 'firefox', 'safari']) {
-    let entry = compat.support[browser];
-    if (Array.isArray(entry)) {
-      entry = entry[0];
+  for (const browser of ['chrome', 'edge', 'firefox', 'safari']) {
+    let entries = compat.support[browser];
+    if (!Array.isArray(entries)) {
+      entries = [entries];
     }
+    const entry = entries.find(e => {
+      return e.version_added && !e.flags;
+    });
     if (!entry || entry.version_removed) {
       support[browser] = false;
     } else {
