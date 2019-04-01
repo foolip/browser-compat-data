@@ -78,10 +78,10 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true
@@ -220,10 +220,10 @@
               "version_added": false
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": false
@@ -268,10 +268,10 @@
               "version_added": false
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": false
@@ -789,10 +789,10 @@
               "version_removed": "43"
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true,
@@ -931,10 +931,10 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true
@@ -1166,10 +1166,10 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true
@@ -1219,10 +1219,10 @@
               "version_removed": "33"
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true,
@@ -1273,10 +1273,10 @@
               "version_removed": "33"
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true,
@@ -1327,10 +1327,10 @@
               "version_removed": "33"
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true,
@@ -1381,10 +1381,10 @@
               "version_removed": "33"
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true,
@@ -1429,10 +1429,10 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true
@@ -1523,10 +1523,10 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true
@@ -1668,10 +1668,10 @@
               "version_removed": "43"
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": true,
@@ -1716,10 +1716,10 @@
               "version_added": false
             },
             "safari": {
-              "version_added": null
+              "version_added": true
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": true
             },
             "webview_android": {
               "version_added": false
