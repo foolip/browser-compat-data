@@ -5,10 +5,14 @@
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/Point",
         "support": {
           "chrome": {
-            "version_added": null
+            "version_added": true,
+            "version_removed": "38",
+            "prefix": "WebKit"
           },
           "chrome_android": {
-            "version_added": null
+            "version_added": true,
+            "version_removed": "38",
+            "prefix": "WebKit"
           },
           "edge": {
             "version_added": true
@@ -26,10 +30,14 @@
             "version_added": null
           },
           "opera": {
-            "version_added": null
+            "version_added": true,
+            "version_removed": "25",
+            "prefix": "WebKit"
           },
           "opera_android": {
-            "version_added": null
+            "version_added": true,
+            "version_removed": "25",
+            "prefix": "WebKit"
           },
           "safari": {
             "version_added": true,
@@ -40,10 +48,14 @@
             "prefix": "WebKit"
           },
           "samsunginternet_android": {
-            "version_added": null
+            "version_added": true,
+            "version_removed": true,
+            "prefix": "WebKit"
           },
           "webview_android": {
-            "version_added": null
+            "version_added": true,
+            "version_removed": "38",
+            "prefix": "WebKit"
           }
         },
         "status": {
@@ -56,10 +68,14 @@
         "__compat": {
           "support": {
             "chrome": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "38",
+              "prefix": "WebKit"
             },
             "chrome_android": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "38",
+              "prefix": "WebKit"
             },
             "edge": {
               "version_added": true
@@ -77,10 +93,14 @@
               "version_added": null
             },
             "opera": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "25",
+              "prefix": "WebKit"
             },
             "opera_android": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "25",
+              "prefix": "WebKit"
             },
             "safari": {
               "version_added": true
@@ -89,10 +109,14 @@
               "version_added": true
             },
             "samsunginternet_android": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": true,
+              "prefix": "WebKit"
             },
             "webview_android": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "38",
+              "prefix": "WebKit"
             }
           },
           "status": {
@@ -106,10 +130,14 @@
         "__compat": {
           "support": {
             "chrome": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "38",
+              "prefix": "WebKit"
             },
             "chrome_android": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "38",
+              "prefix": "WebKit"
             },
             "edge": {
               "version_added": true
@@ -127,10 +155,14 @@
               "version_added": null
             },
             "opera": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "25",
+              "prefix": "WebKit"
             },
             "opera_android": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "25",
+              "prefix": "WebKit"
             },
             "safari": {
               "version_added": true
@@ -139,10 +171,14 @@
               "version_added": true
             },
             "samsunginternet_android": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": true,
+              "prefix": "WebKit"
             },
             "webview_android": {
-              "version_added": null
+              "version_added": true,
+              "version_removed": "38",
+              "prefix": "WebKit"
             }
           },
           "status": {
