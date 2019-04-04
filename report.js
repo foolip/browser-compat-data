@@ -11,6 +11,17 @@ const buckets = new Set([
   'svg',
 ]);
 
+const browsers = new Set([
+  'chrome',
+  'chrome_android',
+  'edge',
+  'firefox',
+  'ie',
+  'safari',
+  'safari_ios',
+  'webview_android',
+]);
+
 function walk(root, callback) {
   var path = [];
   function walkInternal(node) {
@@ -33,13 +44,17 @@ const browserSupport = {};
 // Flatten a `__compat` object into just true/false/null.
 function flatten(compat) {
   const support = {};
-  for (const browser of ['chrome', 'edge', 'firefox', 'safari']) {
+  for (const browser of browsers) {
     let entries = compat.support[browser];
+    if (!entries) {
+      support[browser] = null;
+      continue;
+    }
     if (!Array.isArray(entries)) {
       entries = [entries];
     }
     const entry = entries.find(e => {
-      return e.version_added && !e.flags;
+      return e.version_added !== undefined && e.flags === undefined;
     });
     if (!entry || entry.version_removed) {
       support[browser] = false;
