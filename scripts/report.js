@@ -1,6 +1,6 @@
 'use strict';
 
-const bcd = require('..');
+const bcd = require('.');
 
 const buckets = new Set([
   'api',
@@ -9,6 +9,17 @@ const buckets = new Set([
   'http',
   'javascript',
   'svg',
+]);
+
+const browsers = new Set([
+  'chrome',
+  // 'chrome_android',
+  // 'edge',
+  'firefox',
+  // 'ie',
+  'safari',
+  // 'safari_ios',
+  // 'webview_android',
 ]);
 
 function walk(root, callback) {
@@ -30,11 +41,18 @@ function walk(root, callback) {
 // Flatten a `__compat` object into just true/false/null.
 function flatten(compat) {
   const support = {};
-  for (const browser of ['chrome', 'firefox', 'safari']) {
-    let entry = compat.support[browser];
-    if (Array.isArray(entry)) {
-      entry = entry[0];
+  for (const browser of browsers) {
+    let entries = compat.support[browser];
+    if (!entries) {
+      support[browser] = null;
+      continue;
     }
+    if (!Array.isArray(entries)) {
+      entries = [entries];
+    }
+    const entry = entries.find(e => {
+      return e.version_added !== undefined && e.flags === undefined;
+    });
     if (!entry || entry.version_removed) {
       support[browser] = false;
     } else {
@@ -51,17 +69,23 @@ walk(bcd, (value, path) => {
   if (value && value.__compat) {
     const support = flatten(value.__compat);
     const anyNull = Object.values(support).some(v => v === null);
+    function print() {
+      const prettyPath = path.join('.');
+      const prettySupport = Object.entries(support).map(([k, v]) => {
+        return `${k}:${v}`;
+      }).join(' ');
+      console.log(prettyPath, prettySupport);
+    }
     if (anyNull) {
-      // console.log(path.join('.'), support);
       return;
     }
     // Chrome-only
     if (support.chrome && !support.firefox && !support.safari) {
-      //console.log(path.join('.'), support);
+      // print();
     }
     // Firefox-only missing support
     if (!support.firefox && support.chrome && support.safari) {
-      console.log(path.join('.'), support);
+      print();
     }
   }
 });
