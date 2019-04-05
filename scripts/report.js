@@ -1,6 +1,6 @@
 'use strict';
 
-const bcd = require('.');
+const bcd = require('..');
 
 const buckets = new Set([
   'api',
