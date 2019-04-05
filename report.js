@@ -13,13 +13,13 @@ const buckets = new Set([
 
 const browsers = new Set([
   'chrome',
-  'chrome_android',
-  'edge',
+  // 'chrome_android',
+  // 'edge',
   'firefox',
-  'ie',
+  // 'ie',
   'safari',
-  'safari_ios',
-  'webview_android',
+  // 'safari_ios',
+  // 'webview_android',
 ]);
 
 function walk(root, callback) {
@@ -37,9 +37,6 @@ function walk(root, callback) {
   }
   walkInternal(root);
 }
-
-// Build a set of supported
-const browserSupport = {};
 
 // Flatten a `__compat` object into just true/false/null.
 function flatten(compat) {
@@ -72,17 +69,23 @@ walk(bcd, (value, path) => {
   if (value && value.__compat) {
     const support = flatten(value.__compat);
     const anyNull = Object.values(support).some(v => v === null);
+    function print() {
+      const prettyPath = path.join('.');
+      const prettySupport = Object.entries(support).map(([k, v]) => {
+        return `${k}:${v}`;
+      }).join(' ');
+      console.log(prettyPath, prettySupport);
+    }
     if (anyNull) {
-      // console.log(path.join('.'), support);
       return;
     }
     // Chrome-only
     if (support.chrome && !support.firefox && !support.safari) {
-      //console.log(path.join('.'), support);
+      // print();
     }
     // Firefox-only missing support
     if (!support.firefox && support.chrome && support.safari) {
-      console.log(path.join('.'), support);
+      print();
     }
   }
 });
