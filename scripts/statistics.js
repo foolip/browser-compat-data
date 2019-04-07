@@ -1,5 +1,6 @@
 'use strict';
 
+const assert = require('assert');
 const bcd = require('..');
 const compareVersions = require('compare-versions');
 
@@ -19,7 +20,7 @@ browsers.forEach(browser => {
       removed: new Set,
     });
   }
-  stats[browser] = { all: 0, true: 0, null: 0, real: 0, versions, releases }
+  stats[browser] = { all: 0, true: 0, null: 0, real: 0, versions, releases, no_release: 0 }
 });
 
 const checkSupport = (supportData, type) => {
@@ -29,20 +30,26 @@ const checkSupport = (supportData, type) => {
   return supportData.some(item => item.version_added === type || item.version_removed === type)
 };
 
-// get releases when this was added and removed. either or both may be null.
+// Get release when this was added. Can return the same values as
+// `version_added` (string/true/false/null) with the same meaning.
 const getVersionAdded = (supportData, versions) => {
+  const indexOf = (version) => {
+    const index = versions.indexOf(version);
+    assert(index !== -1, `Invalid version ${version}`);
+    return index;
+  };
+
   if (!Array.isArray(supportData)) {
+    assert(supportData);
     supportData = [supportData];
   }
+  assert(supportData.length);
 
   let earliestIndex = -1;
+  let nonStringValues = new Set;
   for (const item of supportData) {
     if (item.flags) {
       // ignore things that are behind a flag
-      continue;
-    }
-    if (item.version_removed) {
-      // ignore things that have been removed
       continue;
     }
     if (item.prefix || item.alternative_name) {
@@ -50,19 +57,38 @@ const getVersionAdded = (supportData, versions) => {
       // TODO: do something better, this will influence results a lot
       continue;
     }
-    if (typeof item.version_added !== 'string') {
-      // ignore things with non-string versions
+    if (item.version_removed) {
+      // ignore things that have been removed
       continue;
     }
-    const index = versions.indexOf(item.version_added);
-    if (index === -1) {
-      throw new Error(`Invalid version ${item.version_added}`);
+    if (typeof item.version_added !== 'string') {
+      nonStringValues.add(item.version_added);
+      continue;
     }
+
+    const index = indexOf(item.version_added);
     if (earliestIndex === -1 || index < earliestIndex) {
       earliestIndex = index;
     }
   }
-  return versions[earliestIndex] || null;
+
+  if (earliestIndex !== -1 ) {
+    return versions[earliestIndex];
+  }
+
+  if (nonStringValues.size === 0) {
+    return false;
+  }
+
+  assert(nonStringValues.size < 2);
+  if (nonStringValues.has(true)) {
+    return true;
+  }
+  if (nonStringValues.has(false)) {
+    return false;
+  }
+
+  return null;
 };
 
 const processData = (data, path) => {
@@ -75,6 +101,8 @@ const processData = (data, path) => {
         stats[browser].null++;
         stats.total.null++;
         real_value = false;
+        // printBrowserStats would be invalid if this didn't hold.
+        assert(browser.includes('_'));
       } else {
         if (checkSupport(data.support[browser], null)) {
           stats[browser].null++;
@@ -88,8 +116,10 @@ const processData = (data, path) => {
         }
         const versions = stats[browser].versions;
         const version_added = getVersionAdded(data.support[browser], versions);
-        if (version_added) {
+        if (typeof version_added === 'string') {
           stats[browser].releases.get(version_added).added.add(path);
+        } else if (version_added === true || version_added === null) {
+          stats[browser].no_release++;
         }
       }
       if (real_value) {
@@ -133,18 +163,19 @@ const printTable = () => {
 }
 
 const printBrowserStats = () => {
-  console.log(`browser,version,date,added,total`);
+  console.log(`browser,version,date,added,min_total,max_total`);
   for (const browser of browsers) {
     if (browser.includes('_')) {
       continue;
     }
     let total = 0;
-    for (const [version, {date, added}] of stats[browser].releases.entries()) {
+    const {releases, no_release} = stats[browser];
+    for (const [version, {date, added}] of releases.entries()) {
       total += added.size;
       if (!date) {
         continue;
       }
-      console.log(`${browser},${version},${date},${added.size},${total}`);
+      console.log(`${browser},${version},${date},${added.size},${total},${total+no_release}`);
     }
   }
 }
