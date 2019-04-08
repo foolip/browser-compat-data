@@ -54,11 +54,13 @@ const getVersionAdded = (supportData, versions) => {
     }
     if (item.prefix || item.alternative_name) {
       // ignore things with non-standard names
-      // TODO: do something better, this will influence results a lot
+      // TODO: do something better, even though this doesn't seem to affect
+      // results by a lot.
       continue;
     }
     if (item.version_removed) {
       // ignore things that have been removed
+      // TODO: don't ignore them
       continue;
     }
     if (typeof item.version_added !== 'string') {
@@ -80,7 +82,7 @@ const getVersionAdded = (supportData, versions) => {
     return false;
   }
 
-  assert(nonStringValues.size < 2);
+  //assert(nonStringValues.size < 2);
   if (nonStringValues.has(true)) {
     return true;
   }
@@ -92,6 +94,7 @@ const getVersionAdded = (supportData, versions) => {
 };
 
 const processData = (data, path) => {
+  const real_value_browsers = new Set;
   if (data.support) {
     browsers.forEach(function(browser) {
       stats[browser].all++;
@@ -118,8 +121,11 @@ const processData = (data, path) => {
         const version_added = getVersionAdded(data.support[browser], versions);
         if (typeof version_added === 'string') {
           stats[browser].releases.get(version_added).added.add(path);
+          real_value_browsers.add(browser);
         } else if (version_added === true || version_added === null) {
           stats[browser].no_release++;
+        } else if (version_added === false) {
+          real_value_browsers.add(browser);
         }
       }
       if (real_value) {
@@ -127,6 +133,9 @@ const processData = (data, path) => {
         stats.total.real++;
       }
     });
+  }
+  if (!['chrome', 'edge', 'firefox', 'safari'].every(browser => real_value_browsers.has(browser))) {
+    //console.log(path);
   }
 };
 
@@ -141,7 +150,7 @@ const iterateData = (data, path) => {
 };
 
 for (let key in bcd) {
-  if (!(key === 'browsers' || key === 'webextensions')) {
+  if ((key === 'api' || key === 'css' || key === 'javascript')) {
     iterateData(bcd[key], key);
   }
 }
@@ -175,11 +184,79 @@ const printBrowserStats = () => {
       if (!date) {
         continue;
       }
-      console.log(`${browser},${version},${date},${added.size},${total},${total+no_release}`);
     }
   }
 }
 
-//console.log('Status as of version 0.0.xx (released on xx/xx/2019) for web platform features: \n')
+const printInteropStats = () => {
+  const browsers = ['chrome', 'edge', 'firefox', 'safari'];
+  // TODO: generate duh
+  const permutations = [
+    'chrome', 'edge', 'firefox', 'safari', // 1
+    'chrome+edge', 'chrome+firefox', 'chrome+safari', 'edge+firefox', 'edge+safari', 'firefox+safari', // 2
+    'chrome+edge+firefox', 'chrome+edge+safari', 'chrome+firefox+safari', 'edge+firefox+safari', // 3
+    'chrome+edge+firefox+safari' // 4
+  ];
+
+  // table header
+  console.log(`date,${permutations.join(',')}`);
+
+  let release_dates = new Set;
+
+  for (const browser of browsers) {
+    for (const {date} of stats[browser].releases.values()) {
+      if (typeof date !== 'string') {
+        continue;
+      }
+      release_dates.add(date);
+    }
+  }
+  release_dates = Array.from(release_dates);
+  release_dates.sort();
+
+  for (const max_date of release_dates) {
+    // For each browser, find the latest release at `date` and add the name of
+    // the browser to `supported`. Then we reserve that map to get number of
+    // entries supported in 1..4 browsers.
+    const interop = new Map;
+    for (const browser of browsers) {
+      // TODO: this loop could be replaced by a simple lookup if removed APIs
+      // were handled and there was a mapping from browsers release to *all*
+      // supported APIs, not just the added ones.
+      for (const {date, added} of stats[browser].releases.values()) {
+        if (typeof date !== 'string') {
+          continue;
+        }
+        if (date.localeCompare(max_date) > 0) {
+          // future release
+          continue;
+        }
+        for (const path of added) {
+          if (!interop.has(path)) {
+            interop.set(path, new Set([browser]));
+          } else {
+            interop.get(path).add(browser);
+          }
+        }
+      }
+    }
+
+    // Now reserve the map.
+    const reversed = new Map;
+    for (const [path, browsers] of interop) {
+      const keyParts = Array.from(browsers);
+      keyParts.sort();
+      const key = keyParts.join('+');
+      assert(permutations.includes(key));
+      reversed.set(key, (reversed.get(key) || 0) + 1);
+    }
+
+    // now print table row
+    const cells = permutations.map(key => reversed.get(key) || 0);
+    console.log(`${max_date},${cells.join(',')}`);
+  }
+}
+
 //printTable();
-printBrowserStats();
+//printBrowserStats();
+printInteropStats();
