@@ -20,7 +20,8 @@ browsers.forEach(browser => {
       removed: new Set,
     });
   }
-  stats[browser] = { all: 0, true: 0, null: 0, real: 0, versions, releases, no_release: 0 }
+  const no_release = new Set;
+  stats[browser] = { all: 0, true: 0, null: 0, real: 0, versions, releases, no_release }
 });
 
 const checkSupport = (supportData, type) => {
@@ -94,7 +95,6 @@ const getVersionAdded = (supportData, versions) => {
 };
 
 const processData = (data, path) => {
-  const real_value_browsers = new Set;
   if (data.support) {
     browsers.forEach(function(browser) {
       stats[browser].all++;
@@ -121,11 +121,8 @@ const processData = (data, path) => {
         const version_added = getVersionAdded(data.support[browser], versions);
         if (typeof version_added === 'string') {
           stats[browser].releases.get(version_added).added.add(path);
-          real_value_browsers.add(browser);
         } else if (version_added === true || version_added === null) {
-          stats[browser].no_release++;
-        } else if (version_added === false) {
-          real_value_browsers.add(browser);
+          stats[browser].no_release.add(path);
         }
       }
       if (real_value) {
@@ -133,9 +130,6 @@ const processData = (data, path) => {
         stats.total.real++;
       }
     });
-  }
-  if (!['chrome', 'edge', 'firefox', 'safari'].every(browser => real_value_browsers.has(browser))) {
-    //console.log(path);
   }
 };
 
@@ -189,13 +183,13 @@ const printBrowserStats = () => {
 }
 
 const printInteropStats = () => {
-  const browsers = ['chrome', 'edge', 'firefox', 'safari'];
+  const interop_browsers = ['chrome', 'edge', 'firefox', 'safari'];
   // TODO: generate duh
   const permutations = [
-    'chrome', 'edge', 'firefox', 'safari', // 1
+    'chrome+edge+firefox+safari', // all
+    'edge+firefox+safari', 'chrome+firefox+safari', 'chrome+edge+safari', 'chrome+edge+firefox', // all but X
     'chrome+edge', 'chrome+firefox', 'chrome+safari', 'edge+firefox', 'edge+safari', 'firefox+safari', // 2
-    'chrome+edge+firefox', 'chrome+edge+safari', 'chrome+firefox+safari', 'edge+firefox+safari', // 3
-    'chrome+edge+firefox+safari' // 4
+    'chrome', 'edge', 'firefox', 'safari', // only X
   ];
 
   // table header
@@ -203,7 +197,7 @@ const printInteropStats = () => {
 
   let release_dates = new Set;
 
-  for (const browser of browsers) {
+  for (const browser of interop_browsers) {
     for (const {date} of stats[browser].releases.values()) {
       if (typeof date !== 'string') {
         continue;
@@ -217,12 +211,15 @@ const printInteropStats = () => {
   for (const max_date of release_dates) {
     // For each browser, find the latest release at `date` and add the name of
     // the browser to `supported`. Then we reserve that map to get number of
-    // entries supported in 1..4 browsers.
+    // entries supported in 1..N browsers.
     const interop = new Map;
-    for (const browser of browsers) {
+    // set of paths to exclude because of incomplete data
+    const incomplete = new Set;
+    for (const browser of interop_browsers) {
       // TODO: this loop could be replaced by a simple lookup if removed APIs
       // were handled and there was a mapping from browsers release to *all*
-      // supported APIs, not just the added ones.
+      // supported APIs, not just the added ones. Would also need a list of
+      // APIs with incomplete data.
       for (const {date, added} of stats[browser].releases.values()) {
         if (typeof date !== 'string') {
           continue;
@@ -239,11 +236,17 @@ const printInteropStats = () => {
           }
         }
       }
+      for (const path of stats[browser].no_release) {
+        incomplete.add(path);
+      }
     }
 
-    // Now reserve the map.
+    // Now reserve the map, filtering out incomplete data at the same time.
     const reversed = new Map;
     for (const [path, browsers] of interop) {
+      if (incomplete.has(path)) {
+        continue;
+      }
       const keyParts = Array.from(browsers);
       keyParts.sort();
       const key = keyParts.join('+');
