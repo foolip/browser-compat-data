@@ -183,13 +183,12 @@ const printBrowserStats = () => {
 }
 
 const printInteropStats = () => {
-  const interop_browsers = ['chrome', 'edge', 'firefox', 'safari'];
+  const interop_browsers = ['chrome', 'firefox', 'safari'];
   // TODO: generate duh
   const permutations = [
-    'chrome+edge+firefox+safari', // all
-    'edge+firefox+safari', 'chrome+firefox+safari', 'chrome+edge+safari', 'chrome+edge+firefox', // all but X
-    'chrome+edge', 'chrome+firefox', 'chrome+safari', 'edge+firefox', 'edge+safari', 'firefox+safari', // 2
-    'chrome', 'edge', 'firefox', 'safari', // only X
+    'chrome+firefox+safari', // all
+    'firefox+safari', 'chrome+safari', 'chrome+firefox', // 2
+    'chrome', 'firefox', 'safari', // only X
   ];
 
   // table header
