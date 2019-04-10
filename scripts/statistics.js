@@ -144,7 +144,7 @@ const iterateData = (data, path) => {
 };
 
 for (let key in bcd) {
-  if (key === 'css') {
+  if ((key === 'api' || key === 'css' || key === 'javascript')) {
     iterateData(bcd[key], key);
   }
 }
@@ -183,11 +183,12 @@ const printBrowserStats = () => {
 }
 
 const printInteropStats = () => {
-  const interop_browsers = ['chrome', 'firefox'];
+  const interop_browsers = ['chrome', 'firefox', 'safari'];
   // TODO: generate duh
   const permutations = [
-    'chrome+firefox', // all
-    'chrome', 'firefox', // only X
+    'chrome+firefox+safari', // all
+    'firefox+safari', 'chrome+safari', 'chrome+firefox', // 2
+    'chrome', 'firefox', 'safari', // only X
   ];
 
   // table header
