@@ -191,6 +191,9 @@ const printInteropStats = () => {
     'chrome', 'firefox', 'safari', // only X
   ];
 
+  const caniusePath = require.resolve('caniuse-db/data.json');
+  const caniuse = require(caniusePath);
+
   // table header
   console.log(`date,${permutations.join(',')}`);
 
@@ -209,43 +212,50 @@ const printInteropStats = () => {
 
   for (const max_date of release_dates) {
     // For each browser, find the latest release at `date` and add the name of
-    // the browser to `supported`. Then we reserve that map to get number of
+    // the browser to `supported`. Then we reverse that map to get number of
     // entries supported in 1..N browsers.
     const interop = new Map;
-    // set of paths to exclude because of incomplete data
-    const incomplete = new Set;
-    for (const browser of interop_browsers) {
-      // TODO: this loop could be replaced by a simple lookup if removed APIs
-      // were handled and there was a mapping from browsers release to *all*
-      // supported APIs, not just the added ones. Would also need a list of
-      // APIs with incomplete data.
-      for (const {date, added} of stats[browser].releases.values()) {
-        if (typeof date !== 'string') {
-          continue;
-        }
-        if (date.localeCompare(max_date) > 0) {
-          // future release
-          continue;
-        }
-        for (const path of added) {
-          if (!interop.has(path)) {
-            interop.set(path, new Set([browser]));
-          } else {
-            interop.get(path).add(browser);
+    for (const [id, info] of Object.entries(caniuse.data)) {
+      for (const browser of interop_browsers) {
+        // This is complicated in order to not assume that all BCD versions are
+        // in the caniuse data for every feature, and could be simplified by
+        // first ensuring this is the case and copying data where it's not.
+        let latest_support;
+        let latest_support_date;
+        for (const [version, support] of Object.entries(info.stats[browser])) {
+          const bcd_release = bcd.browsers[browser].releases[version];
+          if (!bcd_release) {
+            //console.log(browser, version);
+            continue;
+          }
+          const date = bcd_release.release_date;
+          if (!date || date.localeCompare(max_date) > 0) {
+            // future release
+            continue;
+          }
+          if (latest_support === undefined || date.localeCompare(latest_support_date) > 0) {
+            latest_support = support;
+            latest_support_date = date;
           }
         }
-      }
-      for (const path of stats[browser].no_release) {
-        incomplete.add(path);
+        if (latest_support) {
+          const tokens = latest_support.split(/\s+/g);
+          if (tokens.includes('y') || tokens.includes('a')) {
+            if (!interop.has(id)) {
+              interop.set(id, new Set([browser]));
+            } else {
+              interop.get(id).add(browser);
+            }
+          }
+        } else {
+          //console.log('no support?')
+        }
       }
     }
 
-    // Now reserve the map, filtering out incomplete data at the same time.
+    // Now reverse the map
     const reversed = new Map;
-    for (const [path, browsers] of interop) {
-      if (incomplete.has(path)) {
-        continue;
-      }
+    for (const [id, browsers] of interop) {
       const keyParts = Array.from(browsers);
       keyParts.sort();
       const key = keyParts.join('+');
