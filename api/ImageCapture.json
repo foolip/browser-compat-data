@@ -11,16 +11,13 @@
             "version_added": "59"
           },
           "edge": {
-            "version_added": null
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": "≤79"
           },
           "firefox": {
-            "version_added": true
+            "version_added": null
           },
           "firefox_android": {
-            "version_added": true
+            "version_added": null
           },
           "ie": {
             "version_added": null
@@ -29,7 +26,7 @@
             "version_added": "46"
           },
           "opera_android": {
-            "version_added": "46"
+            "version_added": "43"
           },
           "safari": {
             "version_added": null
@@ -62,16 +59,13 @@
               "version_added": "59"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -80,7 +74,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null
@@ -113,16 +107,13 @@
               "version_added": "59"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -131,7 +122,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null
@@ -164,16 +155,13 @@
               "version_added": "61"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -182,7 +170,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null
@@ -191,7 +179,7 @@
               "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -215,16 +203,13 @@
               "version_added": "59"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -233,7 +218,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null
@@ -282,16 +267,13 @@
               }
             ],
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -307,18 +289,34 @@
                 "notes": "<code>photoSettings</code> argument not supported."
               }
             ],
-            "opera_android": {
-              "version_added": "46"
-            },
+            "opera_android": [
+              {
+                "version_added": "44"
+              },
+              {
+                "version_added": "43",
+                "partial_implementation": true,
+                "version_removed": "44",
+                "notes": "<code>photoSettings</code> argument not supported."
+              }
+            ],
             "safari": {
               "version_added": null
             },
             "safari_ios": {
               "version_added": null
             },
-            "samsunginternet_android": {
-              "version_added": "7.0"
-            },
+            "samsunginternet_android": [
+              {
+                "version_added": "8.0"
+              },
+              {
+                "partial_implementation": true,
+                "version_added": "7.0",
+                "version_removed": "8.0",
+                "notes": "<code>photoSettings</code> argument not supported."
+              }
+            ],
             "webview_android": [
               {
                 "version_added": "60"
@@ -349,16 +347,13 @@
               "version_added": "59"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -367,7 +362,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null

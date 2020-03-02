@@ -11,10 +11,10 @@
             "version_added": "55"
           },
           "edge": {
-            "version_added": null
+            "version_added": "≤79"
           },
           "firefox": {
-            "version_added": false
+            "version_added": null
           },
           "ie": {
             "version_added": null
@@ -52,10 +52,10 @@
               "version_added": "55"
             },
             "edge": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -94,10 +94,10 @@
               "version_added": "55"
             },
             "edge": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -136,10 +136,10 @@
               "version_added": "55"
             },
             "edge": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null

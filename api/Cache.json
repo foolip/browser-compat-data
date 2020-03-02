@@ -13,10 +13,7 @@
             "notes": "From 40 to 42, this was only available on service workers."
           },
           "edge": {
-            "version_added": true
-          },
-          "edge_mobile": {
-            "version_added": false
+            "version_added": "≤18"
           },
           "firefox": {
             "version_added": "39",
@@ -43,7 +40,8 @@
             "version_added": false
           },
           "samsunginternet_android": {
-            "version_added": "4.0"
+            "version_added": "4.0",
+            "notes": "From 40 to 42, this was only available on service workers."
           },
           "webview_android": {
             "version_added": "43",
@@ -71,9 +69,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
               "version_added": "39",
               "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR)."
@@ -89,7 +84,7 @@
               "notes": "Requires HTTPS from version 33."
             },
             "opera_android": {
-              "version_added": "31",
+              "version_added": "32",
               "notes": "Requires HTTPS from version 33."
             },
             "safari": {
@@ -99,7 +94,8 @@
               "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": "4.0"
+              "version_added": "4.0",
+              "notes": "Requires HTTPS from Samsung Internet 5.0."
             },
             "webview_android": {
               "version_added": "44",
@@ -128,9 +124,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
               "version_added": "39",
               "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR)."
@@ -156,7 +149,8 @@
               "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": "5.0"
+              "version_added": "5.0",
+              "notes": "Requires HTTPS."
             },
             "webview_android": {
               "version_added": "46",
@@ -182,9 +176,6 @@
             },
             "edge": {
               "version_added": "16"
-            },
-            "edge_mobile": {
-              "version_added": false
             },
             "firefox": {
               "version_added": "39",
@@ -235,9 +226,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
               "version_added": "39",
               "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR)."
@@ -287,9 +275,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
               "version_added": "39",
               "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR)."
@@ -338,9 +323,6 @@
             },
             "edge": {
               "version_added": "16"
-            },
-            "edge_mobile": {
-              "version_added": false
             },
             "firefox": {
               "version_added": "39",
@@ -394,9 +376,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
               "version_added": "39",
               "notes": "Service workers (and <a href='https://developer.mozilla.org/docs/Web/API/Push_API'>Push</a>) have been disabled in the <a href='https://www.mozilla.org/firefox/organizations/'>Firefox 45 & 52 Extended Support Releases</a> (ESR)."
@@ -422,7 +401,8 @@
               "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": "4.0"
+              "version_added": "4.0",
+              "notes": "Requires HTTPS from Samsung Internet 5.0."
             },
             "webview_android": {
               "version_added": "43",

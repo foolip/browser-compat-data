@@ -46,15 +46,35 @@
               }
             }
           },
-          "removeListener": {
+          "addRules": {
             "__compat": {
-              "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/removeListener",
               "support": {
                 "chrome": {
                   "version_added": true
                 },
                 "edge": {
-                  "version_added": "14"
+                  "version_added": "79"
+                },
+                "firefox": {
+                  "version_added": false
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": true
+                }
+              }
+            }
+          },
+          "getRules": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": true
+                },
+                "edge": {
+                  "version_added": "79"
                 },
                 "firefox": {
                   "version_added": false
@@ -70,7 +90,6 @@
           },
           "hasListener": {
             "__compat": {
-              "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events/Event/hasListener",
               "support": {
                 "chrome": {
                   "version_added": true
@@ -92,13 +111,12 @@
           },
           "hasListeners": {
             "__compat": {
-              "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events/hasListeners",
               "support": {
                 "chrome": {
                   "version_added": true
                 },
                 "edge": {
-                  "version_added": false
+                  "version_added": "79"
                 },
                 "firefox": {
                   "version_added": false
@@ -112,37 +130,14 @@
               }
             }
           },
-          "addRules": {
+          "removeListener": {
             "__compat": {
-              "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events/addRules",
               "support": {
                 "chrome": {
                   "version_added": true
                 },
                 "edge": {
-                  "version_added": false
-                },
-                "firefox": {
-                  "version_added": false
-                },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": true
-                }
-              }
-            }
-          },
-          "getRules": {
-            "__compat": {
-              "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events/getRules",
-              "support": {
-                "chrome": {
-                  "version_added": true
-                },
-                "edge": {
-                  "version_added": false
+                  "version_added": "14"
                 },
                 "firefox": {
                   "version_added": false
@@ -158,13 +153,12 @@
           },
           "removeRules": {
             "__compat": {
-              "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events/removeRules",
               "support": {
                 "chrome": {
                   "version_added": true
                 },
                 "edge": {
-                  "version_added": false
+                  "version_added": "79"
                 },
                 "firefox": {
                   "version_added": false
@@ -187,7 +181,7 @@
                 "version_added": true
               },
               "edge": {
-                "version_added": false
+                "version_added": "79"
               },
               "firefox": {
                 "version_added": false
@@ -209,7 +203,7 @@
                 "version_added": true
               },
               "edge": {
-                "version_added": false
+                "version_added": "79"
               },
               "firefox": {
                 "version_added": "50"

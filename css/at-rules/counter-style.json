@@ -10,13 +10,10 @@
               "version_added": false
             },
             "chrome_android": {
-              "version_added": null
+              "version_added": false
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": "33"
@@ -61,13 +58,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -98,7 +92,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -113,13 +107,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -150,7 +141,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -165,13 +156,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -202,7 +190,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -217,13 +205,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -254,7 +239,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -269,13 +254,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -306,7 +288,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -321,13 +303,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -358,7 +337,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -373,13 +352,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -410,7 +386,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -425,13 +401,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -462,7 +435,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -477,13 +450,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -514,7 +484,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -529,13 +499,10 @@
                 "version_added": false
               },
               "chrome_android": {
-                "version_added": null
+                "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": false
               },
               "firefox": {
                 "version_added": "33"
@@ -566,7 +533,7 @@
               }
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }

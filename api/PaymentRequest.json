@@ -11,10 +11,7 @@
             "version_added": "53"
           },
           "edge": {
-            "version_added": true
-          },
-          "edge_mobile": {
-            "version_added": true
+            "version_added": "≤18"
           },
           "firefox": {
             "version_added": "55",
@@ -28,7 +25,7 @@
               {
                 "name": "dom.payments.request.supportedRegions",
                 "type": "preference",
-                "value_to_set": "A comma-delineated list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>."
+                "value_to_set": "A comma-delineated list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>)."
               }
             ]
           },
@@ -44,7 +41,7 @@
               {
                 "name": "dom.payments.request.supportedRegions",
                 "type": "preference",
-                "value_to_set": "A comma-delineated list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>."
+                "value_to_set": "A comma-delineated list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>)."
               }
             ]
           },
@@ -58,10 +55,10 @@
             "version_added": false
           },
           "safari": {
-            "version_added": true
+            "version_added": "11.1"
           },
           "safari_ios": {
-            "version_added": true
+            "version_added": "11.3"
           },
           "samsunginternet_android": {
             "version_added": "6.0"
@@ -88,10 +85,7 @@
               "version_added": "53"
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": "55",
@@ -125,10 +119,10 @@
               "version_added": false
             },
             "safari": {
-              "version_added": true
+              "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
               "version_added": "6.0"
@@ -158,9 +152,6 @@
             "edge": {
               "version_added": "15"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": {
               "version_added": "55",
               "notes": "Available only in nightly builds.",
@@ -196,7 +187,7 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
               "version_added": "6.0"
@@ -226,9 +217,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": {
               "version_added": "55",
               "notes": "Available only in nightly builds.",
@@ -264,7 +252,7 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
               "version_added": "6.0"
@@ -293,9 +281,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": null
-            },
             "firefox": {
               "version_added": "55",
               "notes": "Available only in nightly builds.",
@@ -331,10 +316,139 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "merchantvalidation_event": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/merchantvalidation_event",
+          "description": "<code>merchantvalidation</code> event",
+          "support": {
+            "chrome": {
+              "version_added": null
+            },
+            "chrome_android": {
+              "version_added": null
+            },
+            "edge": {
+              "version_added": null
+            },
+            "firefox": {
+              "version_added": "64",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "firefox_android": {
+              "version_added": "64",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": false
+            },
+            "opera_android": {
+              "version_added": false
+            },
+            "safari": {
+              "version_added": null
+            },
+            "safari_ios": {
+              "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": null
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "onmerchantvalidation": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/onmerchantvalidation",
+          "support": {
+            "chrome": {
+              "version_added": null
+            },
+            "chrome_android": {
+              "version_added": null
+            },
+            "edge": {
+              "version_added": null
+            },
+            "firefox": {
+              "version_added": "64",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "firefox_android": {
+              "version_added": "64",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": false
+            },
+            "opera_android": {
+              "version_added": false
+            },
+            "safari": {
+              "version_added": null
+            },
+            "safari_ios": {
+              "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": null
             },
             "webview_android": {
               "version_added": false
@@ -358,10 +472,7 @@
               "version_added": false
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": "63",
@@ -395,13 +506,13 @@
               "version_added": false
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": null
+              "version_added": false
             },
             "webview_android": {
               "version_added": false
@@ -427,9 +538,6 @@
             "edge": {
               "version_added": "15"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": {
               "version_added": "55",
               "notes": "Available only in nightly builds.",
@@ -465,7 +573,7 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
               "version_added": "6.0"
@@ -494,9 +602,6 @@
             "edge": {
               "version_added": "15"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": {
               "version_added": "55",
               "notes": "Available only in nightly builds.",
@@ -532,7 +637,7 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
               "version_added": "6.0"
@@ -561,9 +666,6 @@
             "edge": {
               "version_added": "15"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": {
               "version_added": "55",
               "notes": "Available only in nightly builds.",
@@ -617,6 +719,71 @@
           }
         }
       },
+      "paymentmethodchange_event": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/paymentmethodchange_event",
+          "description": "<code>paymentmethodchange</code> event",
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": {
+              "version_added": false
+            },
+            "edge": {
+              "version_added": false
+            },
+            "firefox": {
+              "version_added": "63",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "firefox_android": {
+              "version_added": "63",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": false
+            },
+            "opera_android": {
+              "version_added": false
+            },
+            "safari": {
+              "version_added": null
+            },
+            "safari_ios": {
+              "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": false
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "requestId": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/requestId",
@@ -628,10 +795,8 @@
               "version_added": false
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18",
+              "version_removed": "79"
             },
             "firefox": {
               "version_added": "55",
@@ -684,9 +849,10 @@
           }
         }
       },
-      "shippingOption": {
+      "shippingaddresschange_event": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/shippingOption",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/shippingaddresschange_event",
+          "description": "<code>shippingaddresschange</code> event",
           "support": {
             "chrome": {
               "version_added": "61"
@@ -696,9 +862,6 @@
             },
             "edge": {
               "version_added": "15"
-            },
-            "edge_mobile": {
-              "version_added": true
             },
             "firefox": {
               "version_added": "55",
@@ -735,7 +898,136 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "shippingOption": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/shippingOption",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": {
+              "version_added": "53"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": "55",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "firefox_android": {
+              "version_added": "55",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": false
+            },
+            "opera_android": {
+              "version_added": false
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "shippingoptionchange_event": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/shippingoptionchange_event",
+          "description": "<code>shippingoptionchange</code> event",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": {
+              "version_added": "53"
+            },
+            "edge": {
+              "version_added": "15"
+            },
+            "firefox": {
+              "version_added": "55",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "firefox_android": {
+              "version_added": "55",
+              "notes": "Available only in nightly builds.",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.payments.request.enabled",
+                  "value_to_set": "true"
+                }
+              ]
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": false
+            },
+            "opera_android": {
+              "version_added": false
+            },
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
               "version_added": "6.0"
@@ -764,9 +1056,6 @@
             "edge": {
               "version_added": "15"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": {
               "version_added": "55",
               "notes": "Available only in nightly builds.",
@@ -802,7 +1091,7 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
               "version_added": "6.0"
@@ -831,9 +1120,6 @@
             "edge": {
               "version_added": "15"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": {
               "version_added": "55",
               "notes": "Available only in nightly builds.",
@@ -869,7 +1155,7 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11.3"
             },
             "samsunginternet_android": {
               "version_added": "6.0"

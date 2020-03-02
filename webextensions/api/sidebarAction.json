@@ -46,6 +46,48 @@
             }
           }
         },
+        "getBadgeBackgroundColor": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": {
+                "version_added": false
+              },
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": {
+                "version_added": false
+              },
+              "opera": {
+                "version_added": "30"
+              }
+            }
+          }
+        },
+        "getBadgeText": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": {
+                "version_added": false
+              },
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": {
+                "version_added": false
+              },
+              "opera": {
+                "version_added": "30"
+              }
+            }
+          }
+        },
         "getPanel": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/getPanel",
@@ -158,6 +200,48 @@
             }
           }
         },
+        "onBlur": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": {
+                "version_added": false
+              },
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": {
+                "version_added": false
+              },
+              "opera": {
+                "version_added": "30"
+              }
+            }
+          }
+        },
+        "onFocus": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": {
+                "version_added": false
+              },
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": {
+                "version_added": false
+              },
+              "opera": {
+                "version_added": "30"
+              }
+            }
+          }
+        },
         "open": {
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/open",
@@ -176,6 +260,48 @@
               },
               "opera": {
                 "version_added": false
+              }
+            }
+          }
+        },
+        "setBadgeBackgroundColor": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": {
+                "version_added": false
+              },
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": {
+                "version_added": false
+              },
+              "opera": {
+                "version_added": "30"
+              }
+            }
+          }
+        },
+        "setBadgeText": {
+          "__compat": {
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": {
+                "version_added": false
+              },
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": {
+                "version_added": false
+              },
+              "opera": {
+                "version_added": "30"
               }
             }
           }
@@ -201,28 +327,6 @@
               }
             }
           },
-          "null": {
-            "__compat": {
-              "description": "The <code>path</code> and <code>imageData</code> properties of the <code>details</code> parameter can be set to <code>null</code>.",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "edge": {
-                  "version_added": false
-                },
-                "firefox": {
-                  "version_added": "59"
-                },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": false
-                }
-              }
-            }
-          },
           "details": {
             "windowId": {
               "__compat": {
@@ -242,6 +346,28 @@
                   "opera": {
                     "version_added": false
                   }
+                }
+              }
+            }
+          },
+          "null": {
+            "__compat": {
+              "description": "The <code>path</code> and <code>imageData</code> properties of the <code>details</code> parameter can be set to <code>null</code>.",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": {
+                  "version_added": false
+                },
+                "firefox": {
+                  "version_added": "59"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": false
                 }
               }
             }
@@ -268,28 +394,6 @@
               }
             }
           },
-          "null": {
-            "__compat": {
-              "description": "The <code>panel</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "edge": {
-                  "version_added": false
-                },
-                "firefox": {
-                  "version_added": "59"
-                },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": false
-                }
-              }
-            }
-          },
           "details": {
             "windowId": {
               "__compat": {
@@ -309,6 +413,28 @@
                   "opera": {
                     "version_added": false
                   }
+                }
+              }
+            }
+          },
+          "null": {
+            "__compat": {
+              "description": "The <code>panel</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": {
+                  "version_added": false
+                },
+                "firefox": {
+                  "version_added": "59"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": false
                 }
               }
             }
@@ -335,6 +461,29 @@
               }
             }
           },
+          "details": {
+            "windowId": {
+              "__compat": {
+                "support": {
+                  "chrome": {
+                    "version_added": false
+                  },
+                  "edge": {
+                    "version_added": false
+                  },
+                  "firefox": {
+                    "version_added": "61"
+                  },
+                  "firefox_android": {
+                    "version_added": false
+                  },
+                  "opera": {
+                    "version_added": false
+                  }
+                }
+              }
+            }
+          },
           "null": {
             "__compat": {
               "description": "The <code>title</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
@@ -356,27 +505,26 @@
                 }
               }
             }
-          },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "61"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  }
-                }
+          }
+        },
+        "toggle": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction/toggle",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "edge": {
+                "version_added": false
+              },
+              "firefox": {
+                "version_added": "73"
+              },
+              "firefox_android": {
+                "version_added": false
+              },
+              "opera": {
+                "version_added": false
               }
             }
           }

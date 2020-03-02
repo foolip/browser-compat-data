@@ -11,10 +11,7 @@
             "version_added": false
           },
           "edge": {
-            "version_added": null
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": false
           },
           "firefox": {
             "version_added": false
@@ -23,7 +20,7 @@
             "version_added": false
           },
           "ie": {
-            "version_added": null
+            "version_added": false
           },
           "opera": {
             "version_added": null
@@ -36,6 +33,9 @@
           },
           "safari_ios": {
             "version_added": null
+          },
+          "samsunginternet_android": {
+            "version_added": false
           },
           "webview_android": {
             "version_added": false
@@ -58,10 +58,7 @@
               "version_added": false
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": false
@@ -70,7 +67,7 @@
               "version_added": false
             },
             "ie": {
-              "version_added": null
+              "version_added": false
             },
             "opera": {
               "version_added": null
@@ -83,6 +80,9 @@
             },
             "safari_ios": {
               "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": false
             },
             "webview_android": {
               "version_added": false
@@ -106,10 +106,7 @@
               "version_added": false
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": false
@@ -118,7 +115,7 @@
               "version_added": false
             },
             "ie": {
-              "version_added": null
+              "version_added": false
             },
             "opera": {
               "version_added": null
@@ -131,6 +128,9 @@
             },
             "safari_ios": {
               "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": false
             },
             "webview_android": {
               "version_added": false
@@ -154,10 +154,7 @@
               "version_added": false
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": false
@@ -166,7 +163,7 @@
               "version_added": false
             },
             "ie": {
-              "version_added": null
+              "version_added": false
             },
             "opera": {
               "version_added": null
@@ -179,6 +176,9 @@
             },
             "safari_ios": {
               "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": false
             },
             "webview_android": {
               "version_added": false
@@ -202,10 +202,7 @@
               "version_added": false
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": false
@@ -214,7 +211,7 @@
               "version_added": false
             },
             "ie": {
-              "version_added": null
+              "version_added": false
             },
             "opera": {
               "version_added": null
@@ -227,6 +224,9 @@
             },
             "safari_ios": {
               "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": false
             },
             "webview_android": {
               "version_added": false
@@ -250,10 +250,7 @@
               "version_added": false
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": false
@@ -262,7 +259,7 @@
               "version_added": false
             },
             "ie": {
-              "version_added": null
+              "version_added": false
             },
             "opera": {
               "version_added": null
@@ -275,6 +272,9 @@
             },
             "safari_ios": {
               "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": false
             },
             "webview_android": {
               "version_added": false

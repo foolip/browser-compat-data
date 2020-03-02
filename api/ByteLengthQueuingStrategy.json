@@ -13,9 +13,6 @@
           "edge": {
             "version_added": "16"
           },
-          "edge_mobile": {
-            "version_added": false
-          },
           "firefox": {
             "version_added": "57",
             "flags": [
@@ -53,13 +50,13 @@
             "version_added": "46"
           },
           "opera_android": {
-            "version_added": "46"
+            "version_added": "43"
           },
           "safari": {
-            "version_added": true
+            "version_added": null
           },
           "safari_ios": {
-            "version_added": true
+            "version_added": null
           },
           "samsunginternet_android": {
             "version_added": "7.0"
@@ -88,9 +85,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
               "version_added": "57",
               "flags": [
@@ -128,13 +122,13 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
               "version_added": "7.0"
@@ -163,9 +157,6 @@
             "edge": {
               "version_added": "16"
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
               "version_added": "57",
               "flags": [
@@ -203,13 +194,13 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
               "version_added": "7.0"

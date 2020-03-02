@@ -13,12 +13,8 @@
             "prefix": "webkit"
           },
           "edge": {
-            "version_added": false,
-            "notes": "Edge implements this interface as part of the <code>WebKitEntry</code> interface, which is its name for <code><a href='https://developer.mozilla.org/docs/Web/API/FileSystemEntry'>FileSystemEntry</a></code>."
-          },
-          "edge_mobile": {
-            "version_added": false,
-            "notes": "Edge implements this interface as part of the <code>WebKitEntry</code> interface, which is its name for <code><a href='https://developer.mozilla.org/docs/Web/API/FileSystemEntry'>FileSystemEntry</a></code>."
+            "version_added": "79",
+            "prefix": "webkit"
           },
           "firefox": {
             "version_added": "50"
@@ -41,6 +37,10 @@
           "safari_ios": {
             "version_added": false
           },
+          "samsunginternet_android": {
+            "prefix": "webkit",
+            "version_added": true
+          },
           "webview_android": {
             "version_added": true,
             "prefix": "webkit"
@@ -48,7 +48,7 @@
         },
         "status": {
           "experimental": false,
-          "standard_track": false,
+          "standard_track": true,
           "deprecated": false
         }
       },
@@ -63,10 +63,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "50",
@@ -92,6 +89,9 @@
             },
             "safari_ios": {
               "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": true
             },
             "webview_android": {
               "version_added": true
@@ -115,10 +115,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "50"
@@ -141,13 +138,16 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": true
+            },
             "webview_android": {
               "version_added": true
             }
           },
           "status": {
             "experimental": false,
-            "standard_track": false,
+            "standard_track": true,
             "deprecated": false
           }
         }

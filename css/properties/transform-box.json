@@ -12,10 +12,7 @@
               "version_added": "64"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": [
               {
@@ -59,7 +56,7 @@
               },
               {
                 "version_added": "41",
-                "version_removed": true,
+                "version_removed": "43",
                 "flags": [
                   {
                     "type": "preference",
@@ -76,23 +73,23 @@
               "version_added": "51"
             },
             "opera_android": {
-              "version_added": "51"
+              "version_added": "47"
             },
             "safari": {
-              "version_added": null
+              "version_added": "11"
             },
             "safari_ios": {
-              "version_added": null
+              "version_added": "11"
             },
             "samsunginternet_android": {
-              "version_added": false
+              "version_added": "9.0"
             },
             "webview_android": {
               "version_added": "64"
             }
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

@@ -4,18 +4,48 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly",
         "support": {
-          "chrome": {
-            "version_added": "61"
-          },
-          "chrome_android": {
-            "version_added": "61"
-          },
-          "edge": {
-            "version_added": false
-          },
-          "edge_mobile": {
-            "version_added": false
-          },
+          "chrome": [
+            {
+              "version_added": "61"
+            },
+            {
+              "version_added": "45",
+              "flags": [
+                {
+                  "type": "runtime_flag",
+                  "name": "--enable-blink-features=GeometryInterfaces"
+                }
+              ]
+            }
+          ],
+          "chrome_android": [
+            {
+              "version_added": "61"
+            },
+            {
+              "version_added": "45",
+              "flags": [
+                {
+                  "type": "runtime_flag",
+                  "name": "--enable-blink-features=GeometryInterfaces"
+                }
+              ]
+            }
+          ],
+          "edge": [
+            {
+              "version_added": "79"
+            },
+            {
+              "version_added": "79",
+              "flags": [
+                {
+                  "type": "runtime_flag",
+                  "name": "--enable-blink-features=GeometryInterfaces"
+                }
+              ]
+            }
+          ],
           "firefox": {
             "version_added": "33"
           },
@@ -25,17 +55,42 @@
           "ie": {
             "version_added": false
           },
-          "opera": {
-            "version_added": "48"
-          },
-          "opera_android": {
-            "version_added": "48"
-          },
+          "opera": [
+            {
+              "version_added": "48"
+            },
+            {
+              "version_added": "32",
+              "flags": [
+                {
+                  "type": "runtime_flag",
+                  "name": "--enable-blink-features=GeometryInterfaces"
+                }
+              ]
+            }
+          ],
+          "opera_android": [
+            {
+              "version_added": "48"
+            },
+            {
+              "version_added": "32",
+              "flags": [
+                {
+                  "type": "runtime_flag",
+                  "name": "--enable-blink-features=GeometryInterfaces"
+                }
+              ]
+            }
+          ],
           "safari": {
             "version_added": "11"
           },
           "safari_ios": {
-            "version_added": "11.3"
+            "version_added": "11"
+          },
+          "samsunginternet_android": {
+            "version_added": "8.0"
           },
           "webview_android": {
             "version_added": "61"
@@ -47,42 +102,43 @@
           "deprecated": false
         }
       },
-      "worker_support": {
+      "DOMMatrixReadOnly": {
         "__compat": {
-          "description": "Support in <a href='https://developer.mozilla.org/docs/Web/API/Web_Workers_API'>web workers</a>",
+          "description": "<code>DOMMatrixReadOnly()</code> constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/DOMMatrixReadOnly",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "57"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "57"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": "33"
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": "33"
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "44"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -95,22 +151,18 @@
           }
         }
       },
-      "DOMMatrixReadOnly": {
+      "a": {
         "__compat": {
-          "description": "<code>DOMMatrixReadOnly()</code> constructor",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/DOMMatrixReadOnly",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/a",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -122,16 +174,551 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "b": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/b",
+          "support": {
+            "chrome": {
+              "version_added": "45"
+            },
+            "chrome_android": {
+              "version_added": "45"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "32"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "c": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/c",
+          "support": {
+            "chrome": {
+              "version_added": "45"
+            },
+            "chrome_android": {
+              "version_added": "45"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "32"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "d": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/d",
+          "support": {
+            "chrome": {
+              "version_added": "45"
+            },
+            "chrome_android": {
+              "version_added": "45"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "32"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "e": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/e",
+          "support": {
+            "chrome": {
+              "version_added": "45"
+            },
+            "chrome_android": {
+              "version_added": "45"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "32"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "f": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/f",
+          "support": {
+            "chrome": {
+              "version_added": "45"
+            },
+            "chrome_android": {
+              "version_added": "45"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "32"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "flipX": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipX",
+          "description": "<code>flipX()</code>",
+          "support": {
+            "chrome": {
+              "version_added": "54"
+            },
+            "chrome_android": {
+              "version_added": "54"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "41"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "flipY": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipY",
+          "description": "<code>flipY()</code>",
+          "support": {
+            "chrome": {
+              "version_added": "54"
+            },
+            "chrome_android": {
+              "version_added": "54"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "41"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "fromMatrix": {
+        "__compat": {
+          "description": "<code>fromMatrix()</code> static function",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/fromMatrix",
+          "support": {
+            "chrome": {
+              "version_added": "55"
+            },
+            "chrome_android": {
+              "version_added": "55"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "42"
+            },
+            "opera_android": {
+              "version_added": "42"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "inverse": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/inverse",
+          "description": "<code>inverse()</code>",
+          "support": {
+            "chrome": {
+              "version_added": "55"
+            },
+            "chrome_android": {
+              "version_added": "55"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "42"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "is2D": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/is2D",
+          "support": {
+            "chrome": {
+              "version_added": "45"
+            },
+            "chrome_android": {
+              "version_added": "45"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "32"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "isIdentity": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/isIdentity",
+          "support": {
+            "chrome": {
+              "version_added": "45"
+            },
+            "chrome_android": {
+              "version_added": "45"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "32"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -149,16 +736,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m11",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -170,16 +754,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -197,16 +784,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m12",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -218,16 +802,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -245,16 +832,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m13",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -266,16 +850,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -293,16 +880,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m14",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -314,16 +898,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -341,16 +928,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m21",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -362,16 +946,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -389,16 +976,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m22",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -410,16 +994,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -437,16 +1024,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m23",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -458,16 +1042,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -485,16 +1072,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m24",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -506,16 +1090,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -533,16 +1120,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m31",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -554,16 +1138,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -581,16 +1168,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m32",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -602,16 +1186,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -629,16 +1216,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m33",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -650,16 +1234,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -677,16 +1264,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/m34",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -698,16 +1282,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -731,10 +1318,7 @@
               "version_added": "61"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -749,13 +1333,16 @@
               "version_added": "48"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -779,10 +1366,7 @@
               "version_added": "61"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -797,13 +1381,16 @@
               "version_added": "48"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -827,10 +1414,7 @@
               "version_added": "61"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -845,13 +1429,16 @@
               "version_added": "48"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -875,10 +1462,7 @@
               "version_added": "61"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -893,7 +1477,7 @@
               "version_added": "48"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
@@ -901,533 +1485,8 @@
             "safari_ios": {
               "version_added": "11.3"
             },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "a": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/a",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "b": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/b",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "c": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/c",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "d": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/d",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "e": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/e",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "f": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/f",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "is2D": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/is2D",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "isIdentity": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/isIdentity",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "flipX": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipX",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "flipY": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipY",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
-            },
-            "webview_android": {
-              "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "inverse": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/inverse",
-          "support": {
-            "chrome": {
-              "version_added": "61"
-            },
-            "chrome_android": {
-              "version_added": "61"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "48"
-            },
-            "opera_android": {
-              "version_added": "48"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11.3"
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1443,18 +1502,16 @@
       "multiply": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/multiply",
+          "description": "<code>multiply()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -1466,16 +1523,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1491,18 +1551,16 @@
       "rotate": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/rotate",
+          "description": "<code>rotate()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -1514,16 +1572,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "43"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1539,18 +1600,16 @@
       "rotateAxisAngle": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/rotateAxisAngle",
+          "description": "<code>rotateAxisAngle()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -1562,16 +1621,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "43"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1587,18 +1649,16 @@
       "rotateFromVector": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/rotateFromVector",
+          "description": "<code>rotateFromVector()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -1610,16 +1670,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "43"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1635,43 +1698,43 @@
       "scale": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale",
+          "description": "<code>scale()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33",
-              "partial_implementation": true,
-              "notes": "Firefox currently still supports the older three-parameter syntax - <code>DOMMatrix.scale(scaleX[, originX][, originY])</code> - not the six-parameter version."
+              "notes": "Firefox 69 introduced support for the modern six-parameter syntax for <code>scale()</code>. Previously, it only supported the older three-parameter syntax: <code>scale(<em>scaleX</em>[, <em>originX</em>][, <em>originY</em>]]])</code>."
             },
             "firefox_android": {
               "version_added": "33",
               "partial_implementation": true,
-              "notes": "Firefox currently still supports the older three-parameter syntax - <code>DOMMatrix.scale(scaleX[, originX][, originY])</code> - not the six-parameter version."
+              "notes": "Firefox for Android only supports the older three-parameter syntax for <code>scale()</code>: <code>scale(<em>scaleX</em>[, <em>originX</em>][, <em>originY</em>]]])</code>, and not the six-parameter syntax."
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1687,39 +1750,42 @@
       "scale3d": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale3d",
+          "description": "<code>scale3d()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
-              "version_added": "33"
+              "version_added": "33",
+              "notes": "Starting in Firefox 69, the first parameter (<code>scale</code>) is now optional with a default value of 1, per the specification. Previously it was required."
             },
             "firefox_android": {
-              "version_added": "33"
+              "version_added": "33",
+              "notes": "Firefox for Android requires the first parameter (<code>scale</code>)."
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1735,21 +1801,22 @@
       "scaleNonUniform": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scaleNonUniform",
+          "description": "<code>scaleNonUniform()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45",
+              "version_removed": "56"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45",
+              "version_removed": "56"
             },
             "edge": {
               "version_added": false
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
-              "version_added": "33"
+              "version_added": "33",
+              "version_removed": "69"
             },
             "firefox_android": {
               "version_added": "33"
@@ -1758,10 +1825,11 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32",
+              "version_removed": "43"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": false
@@ -1769,8 +1837,11 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": false
+            },
             "webview_android": {
-              "version_added": "61"
+              "version_added": false
             }
           },
           "status": {
@@ -1780,24 +1851,25 @@
           }
         }
       },
-      "skewX": {
+      "scaleNonUniformSelf": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/skewX",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scaleNonUniformSelf",
+          "description": "<code>scaleNonUniformSelf()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45",
+              "version_removed": "56"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45",
+              "version_removed": "56"
             },
             "edge": {
               "version_added": false
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
-              "version_added": "33"
+              "version_added": "33",
+              "version_removed": "69"
             },
             "firefox_android": {
               "version_added": "33"
@@ -1806,16 +1878,71 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32",
+              "version_removed": "43"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": false
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      },
+      "skewX": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/skewX",
+          "description": "<code>skewX()</code>",
+          "support": {
+            "chrome": {
+              "version_added": "54"
+            },
+            "chrome_android": {
+              "version_added": "54"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33",
+              "notes": "Prior to Firefox 69, the <code>sx</code> parameter was required; you may now call <code>skewX()</code> with no inputs. A value of 0 is correctly assumed."
+            },
+            "firefox_android": {
+              "version_added": "33",
+              "notes": "Firefox for Android requires the <code>sx</code> parameter."
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "41"
+            },
+            "opera_android": {
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1831,39 +1958,42 @@
       "skewY": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/skewY",
+          "description": "<code>skewY()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "54"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "54"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
-              "version_added": "33"
+              "version_added": "33",
+              "notes": "Prior to Firefox 69, the <code>sy</code> parameter was required; you may now call <code>skewY()</code> with no inputs. A value of 0 is correctly assumed."
             },
             "firefox_android": {
-              "version_added": "33"
+              "version_added": "33",
+              "notes": "Firefox for Android requires the <code>sy</code> parameter."
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "41"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1879,18 +2009,16 @@
       "toFloat32Array": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat32Array",
+          "description": "<code>toFloat32Array()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -1902,16 +2030,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1927,18 +2058,16 @@
       "toFloat64Array": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat64Array",
+          "description": "<code>toFloat64Array()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "45"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -1950,16 +2079,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "32"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -1975,18 +2107,16 @@
       "toJSON": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toJSON",
+          "description": "<code>toJSON()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -1998,16 +2128,19 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "43"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -2023,18 +2156,16 @@
       "toString": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toString",
+          "description": "<code>toString()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "54"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "54"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -2046,10 +2177,10 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "41"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
@@ -2057,56 +2188,11 @@
             "safari_ios": {
               "version_added": "11.3"
             },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
             "webview_android": {
               "version_added": "61"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "translate": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/translate",
-          "support": {
-            "chrome": {
-              "version_added": "45"
-            },
-            "chrome_android": {
-              "version_added": "45"
-            },
-            "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
-            },
-            "firefox": {
-              "version_added": "33"
-            },
-            "firefox_android": {
-              "version_added": "33"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "32"
-            },
-            "opera_android": {
-              "version_added": "32"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "webview_android": {
-              "version_added": "45"
             }
           },
           "status": {
@@ -2119,6 +2205,7 @@
       "transform": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/transform",
+          "description": "<code>transform()</code>",
           "support": {
             "chrome": {
               "version_added": "61"
@@ -2127,16 +2214,15 @@
               "version_added": "61"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
-              "version_added": "33"
+              "version_added": "33",
+              "notes": "Prior to Firefox 69, the <code>tx</code> and <code>ty</code> parameters were required; they are now correctly optional, each defaulting to a value of 0."
             },
             "firefox_android": {
-              "version_added": "33"
+              "version_added": "33",
+              "notes": "Firefox for Android requires the <code>tx</code> and <code>ty</code> parameters, specifying at least a 2D vector."
             },
             "ie": {
               "version_added": false
@@ -2145,13 +2231,16 @@
               "version_added": "48"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
-              "version_added": false
+              "version_added": "11"
             },
             "safari_ios": {
-              "version_added": false
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"
@@ -2167,18 +2256,16 @@
       "transformPoint": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/transformPoint",
+          "description": "<code>transformPoint()</code>",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "chrome_android": {
-              "version_added": "61"
+              "version_added": "56"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": "33"
@@ -2190,16 +2277,116 @@
               "version_added": false
             },
             "opera": {
-              "version_added": "48"
+              "version_added": "43"
             },
             "opera_android": {
-              "version_added": "48"
+              "version_added": "45"
             },
             "safari": {
               "version_added": "11"
             },
             "safari_ios": {
               "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "translate": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/translate",
+          "description": "<code>translate()</code>",
+          "support": {
+            "chrome": {
+              "version_added": "45"
+            },
+            "chrome_android": {
+              "version_added": "45"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": {
+              "version_added": "33"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "32"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
+            "webview_android": {
+              "version_added": "61"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "worker_support": {
+        "__compat": {
+          "description": "Available in workers",
+          "support": {
+            "chrome": {
+              "version_added": "57"
+            },
+            "chrome_android": {
+              "version_added": "57"
+            },
+            "edge": {
+              "version_added": "79"
+            },
+            "firefox": {
+              "version_added": "69"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "44"
+            },
+            "opera_android": {
+              "version_added": "45"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "8.0"
             },
             "webview_android": {
               "version_added": "61"

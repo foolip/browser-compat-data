@@ -22,10 +22,8 @@
             ]
           },
           "edge": {
-            "version_added": true
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": "≤18",
+            "version_removed": "79"
           },
           "firefox": [
             {
@@ -47,10 +45,11 @@
             "version_added": null
           },
           "safari": {
-            "version_added": true
+            "version_added": false
           },
           "samsunginternet_android": {
-            "version_added": "6.0"
+            "version_added": "6.0",
+            "notes": "Google Cardboard supported in Samsung Internet 7.0."
           },
           "webview_android": {
             "version_added": false
@@ -59,7 +58,7 @@
         "status": {
           "experimental": true,
           "standard_track": true,
-          "deprecated": false
+          "deprecated": true
         }
       },
       "sittingToStandingTransform": {
@@ -84,10 +83,8 @@
               ]
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18",
+              "version_removed": "79"
             },
             "firefox": [
               {
@@ -109,10 +106,11 @@
               "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": "6.0"
+              "version_added": "6.0",
+              "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
             "webview_android": {
               "version_added": false
@@ -121,7 +119,7 @@
           "status": {
             "experimental": true,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
@@ -147,10 +145,8 @@
               ]
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18",
+              "version_removed": "79"
             },
             "firefox": [
               {
@@ -172,10 +168,11 @@
               "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": "6.0"
+              "version_added": "6.0",
+              "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
             "webview_android": {
               "version_added": false
@@ -184,7 +181,7 @@
           "status": {
             "experimental": true,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
@@ -210,10 +207,8 @@
               ]
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18",
+              "version_removed": "79"
             },
             "firefox": [
               {
@@ -235,10 +230,11 @@
               "version_added": null
             },
             "safari": {
-              "version_added": null
+              "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": "6.0"
+              "version_added": "6.0",
+              "notes": "Google Cardboard supported in Samsung Internet 7.0."
             },
             "webview_android": {
               "version_added": false
@@ -247,7 +243,7 @@
           "status": {
             "experimental": true,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       }

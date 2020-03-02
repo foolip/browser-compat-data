@@ -5,16 +5,13 @@
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/TrackDefault",
         "support": {
           "chrome": {
-            "version_added": false
+            "version_added": null
           },
           "chrome_android": {
-            "version_added": false
+            "version_added": null
           },
           "edge": {
-            "version_added": true
-          },
-          "edge_mobile": {
-            "version_added": true
+            "version_added": "≤18"
           },
           "firefox": {
             "version_added": false
@@ -26,10 +23,10 @@
             "version_added": null
           },
           "opera": {
-            "version_added": false
+            "version_added": null
           },
           "opera_android": {
-            "version_added": false
+            "version_added": null
           },
           "safari": {
             "version_added": null
@@ -37,8 +34,11 @@
           "safari_ios": {
             "version_added": false
           },
+          "samsunginternet_android": {
+            "version_added": null
+          },
           "webview_android": {
-            "version_added": false
+            "version_added": null
           }
         },
         "status": {
@@ -53,16 +53,13 @@
           "description": "<code>TrackDefault()</code> constructor",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": null
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": false
@@ -74,10 +71,10 @@
               "version_added": null
             },
             "opera": {
-              "version_added": false
+              "version_added": null
             },
             "opera_android": {
-              "version_added": false
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -85,8 +82,11 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": null
+            },
             "webview_android": {
-              "version_added": false
+              "version_added": null
             }
           },
           "status": {
@@ -101,16 +101,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TrackDefault/byteStreamTrackID",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": null
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": false
@@ -122,10 +119,10 @@
               "version_added": null
             },
             "opera": {
-              "version_added": false
+              "version_added": null
             },
             "opera_android": {
-              "version_added": false
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -133,8 +130,11 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": null
+            },
             "webview_android": {
-              "version_added": false
+              "version_added": null
             }
           },
           "status": {
@@ -149,16 +149,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TrackDefault/kinds",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": null
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": false
@@ -170,10 +167,10 @@
               "version_added": null
             },
             "opera": {
-              "version_added": false
+              "version_added": null
             },
             "opera_android": {
-              "version_added": false
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -181,8 +178,11 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": null
+            },
             "webview_android": {
-              "version_added": false
+              "version_added": null
             }
           },
           "status": {
@@ -197,16 +197,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TrackDefault/label",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": null
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": false
@@ -218,10 +215,10 @@
               "version_added": null
             },
             "opera": {
-              "version_added": false
+              "version_added": null
             },
             "opera_android": {
-              "version_added": false
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -229,8 +226,11 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": null
+            },
             "webview_android": {
-              "version_added": false
+              "version_added": null
             }
           },
           "status": {
@@ -245,16 +245,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TrackDefault/language",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": null
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": false
@@ -266,10 +263,10 @@
               "version_added": null
             },
             "opera": {
-              "version_added": false
+              "version_added": null
             },
             "opera_android": {
-              "version_added": false
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -277,8 +274,11 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": null
+            },
             "webview_android": {
-              "version_added": false
+              "version_added": null
             }
           },
           "status": {
@@ -293,16 +293,13 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/TrackDefault/type",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": null
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": false
@@ -314,10 +311,10 @@
               "version_added": null
             },
             "opera": {
-              "version_added": false
+              "version_added": null
             },
             "opera_android": {
-              "version_added": false
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -325,8 +322,11 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": null
+            },
             "webview_android": {
-              "version_added": false
+              "version_added": null
             }
           },
           "status": {

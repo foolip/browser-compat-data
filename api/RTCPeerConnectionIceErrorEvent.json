@@ -5,31 +5,28 @@
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent",
         "support": {
           "chrome": {
-            "version_added": true
+            "version_added": null
           },
           "chrome_android": {
-            "version_added": true
+            "version_added": null
           },
           "edge": {
             "version_added": null
           },
-          "edge_mobile": {
-            "version_added": null
-          },
           "firefox": {
-            "version_added": false
+            "version_added": null
           },
           "firefox_android": {
-            "version_added": false
-          },
-          "ie": {
             "version_added": null
           },
+          "ie": {
+            "version_added": false
+          },
           "opera": {
-            "version_added": true
+            "version_added": null
           },
           "opera_android": {
-            "version_added": true
+            "version_added": null
           },
           "safari": {
             "version_added": null
@@ -38,10 +35,10 @@
             "version_added": null
           },
           "samsunginternet_android": {
-            "version_added": true
+            "version_added": null
           },
           "webview_android": {
-            "version_added": true
+            "version_added": null
           }
         },
         "status": {
@@ -55,31 +52,28 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent/errorCode",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": true
+              "version_added": null
             },
             "edge": {
               "version_added": null
             },
-            "edge_mobile": {
-              "version_added": null
-            },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
               "version_added": null
             },
+            "ie": {
+              "version_added": false
+            },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -88,10 +82,10 @@
               "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {
@@ -106,31 +100,28 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent/errorText",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": true
+              "version_added": null
             },
             "edge": {
               "version_added": null
             },
-            "edge_mobile": {
-              "version_added": null
-            },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
               "version_added": null
             },
+            "ie": {
+              "version_added": false
+            },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -139,10 +130,10 @@
               "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {
@@ -157,31 +148,28 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent/hostCandidate",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": true
+              "version_added": null
             },
             "edge": {
               "version_added": null
             },
-            "edge_mobile": {
-              "version_added": null
-            },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
               "version_added": null
             },
+            "ie": {
+              "version_added": false
+            },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -190,10 +178,10 @@
               "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {
@@ -208,31 +196,28 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent/url",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": null
             },
             "chrome_android": {
-              "version_added": true
+              "version_added": null
             },
             "edge": {
               "version_added": null
             },
-            "edge_mobile": {
-              "version_added": null
-            },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
-            },
-            "ie": {
               "version_added": null
             },
+            "ie": {
+              "version_added": false
+            },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
               "version_added": null
@@ -241,10 +226,10 @@
               "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {

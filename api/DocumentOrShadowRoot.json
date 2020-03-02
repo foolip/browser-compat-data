@@ -11,10 +11,7 @@
             "version_added": "53"
           },
           "edge": {
-            "version_added": true
-          },
-          "edge_mobile": {
-            "version_added": true
+            "version_added": "12"
           },
           "firefox": {
             "version_added": true
@@ -29,7 +26,7 @@
             "version_added": "40"
           },
           "opera_android": {
-            "version_added": "40"
+            "version_added": "41"
           },
           "safari": {
             "version_added": true
@@ -61,10 +58,7 @@
               "version_added": "53"
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "12"
             },
             "firefox": {
               "version_added": "63"
@@ -79,7 +73,7 @@
               "version_added": "40"
             },
             "opera_android": {
-              "version_added": "40"
+              "version_added": "41"
             },
             "safari": {
               "version_added": true
@@ -112,10 +106,7 @@
               "version_added": "73"
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
-              "version_added": false
+              "version_added": "79"
             },
             "firefox": {
               "version_added": false
@@ -130,7 +121,7 @@
               "version_added": "60"
             },
             "opera_android": {
-              "version_added": "60"
+              "version_added": "50"
             },
             "safari": {
               "version_added": false
@@ -163,9 +154,6 @@
               "version_added": false
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
               "version_added": false
             },
             "firefox": {
@@ -216,10 +204,7 @@
               "notes": "Before Chrome 66, this method returned <code>null</code> when the element was a child of a host node. See <a href='https://crbug.com/759947'>issue 759947</a>."
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "12"
             },
             "firefox": {
               "version_added": "63"
@@ -234,7 +219,7 @@
               "version_added": "40"
             },
             "opera_android": {
-              "version_added": "40"
+              "version_added": "41"
             },
             "safari": {
               "version_added": true
@@ -243,7 +228,8 @@
               "version_added": true
             },
             "samsunginternet_android": {
-              "version_added": "6.0"
+              "version_added": "6.0",
+              "notes": "Before Samsung Internet 9.0, this method returned <code>null</code> when the element was a child of a host node. See <a href='https://crbug.com/759947'>issue 759947</a>."
             },
             "webview_android": {
               "version_added": "53",
@@ -270,10 +256,9 @@
               "notes": "Before Chrome 66, this method returned <code>null</code> when the element was a child of a host node. See <a href='https://crbug.com/759947'>issue 759947</a>."
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "12",
+              "alternative_name": "msElementsFromPoint",
+              "notes": "Returns a <code>NodeList</code> instead of an array. See <a href='https://msdn.microsoft.com/en-us/library/hh772121(v=vs.85).aspx'>the MSDN documentation</a>. Returns <code>null</code> when the point provided has no elements beneath it (e.g., when given a point outside the document)."
             },
             "firefox": {
               "version_added": "63"
@@ -282,22 +267,25 @@
               "version_added": "63"
             },
             "ie": {
-              "version_added": true
+              "version_added": "10",
+              "alternative_name": "msElementsFromPoint",
+              "notes": "Returns a <code>NodeList</code> instead of an array. See <a href='https://msdn.microsoft.com/en-us/library/hh772121(v=vs.85).aspx'>the MSDN documentation</a>. Returns <code>null</code> when the point provided has no elements beneath it (e.g., when given a point outside the document)."
             },
             "opera": {
               "version_added": "40"
             },
             "opera_android": {
-              "version_added": "40"
+              "version_added": "41"
             },
             "safari": {
-              "version_added": true
+              "version_added": "12"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "12"
             },
             "samsunginternet_android": {
-              "version_added": "6.0"
+              "version_added": "6.0",
+              "notes": "Before Samsung Internet 9.0, this method returned <code>null</code> when the element was a child of a host node. See <a href='https://crbug.com/759947'>issue 759947</a>."
             },
             "webview_android": {
               "version_added": "53",
@@ -323,14 +311,16 @@
               "version_added": "53",
               "prefix": "webkit"
             },
-            "edge": {
-              "version_added": true,
-              "prefix": "webkit"
-            },
-            "edge_mobile": {
-              "version_added": true,
-              "prefix": "webkit"
-            },
+            "edge": [
+              {
+                "version_added": "≤18",
+                "prefix": "webkit"
+              },
+              {
+                "version_added": "12",
+                "prefix": "ms"
+              }
+            ],
             "firefox": [
               {
                 "version_added": "64"
@@ -382,7 +372,7 @@
               "prefix": "webkit"
             },
             "opera_android": {
-              "version_added": "40",
+              "version_added": "41",
               "prefix": "webkit"
             },
             "safari": {
@@ -422,10 +412,7 @@
               "version_added": "53"
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "12"
             },
             "firefox": {
               "version_added": "63"
@@ -440,7 +427,7 @@
               "version_added": "40"
             },
             "opera_android": {
-              "version_added": "40"
+              "version_added": "41"
             },
             "safari": {
               "version_added": true
@@ -473,9 +460,6 @@
               "version_added": false
             },
             "edge": {
-              "version_added": false
-            },
-            "edge_mobile": {
               "version_added": false
             },
             "firefox": {
@@ -528,9 +512,6 @@
             "edge": {
               "version_added": false
             },
-            "edge_mobile": {
-              "version_added": false
-            },
             "firefox": {
               "version_added": false,
               "notes": "Implemented in Firefox but currently only works in chrome code."
@@ -579,10 +560,7 @@
               "version_added": "53"
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "12"
             },
             "firefox": {
               "version_added": "63"
@@ -597,7 +575,7 @@
               "version_added": "40"
             },
             "opera_android": {
-              "version_added": "40"
+              "version_added": "41"
             },
             "safari": {
               "version_added": true
@@ -630,10 +608,7 @@
               "version_added": "53"
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "12"
             },
             "firefox": {
               "version_added": "63"
@@ -648,7 +623,7 @@
               "version_added": "40"
             },
             "opera_android": {
-              "version_added": "40"
+              "version_added": "41"
             },
             "safari": {
               "version_added": true

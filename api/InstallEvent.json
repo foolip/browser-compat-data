@@ -11,10 +11,7 @@
             "version_added": "40"
           },
           "edge": {
-            "version_added": null
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": "≤79"
           },
           "firefox": {
             "version_added": "44",
@@ -53,7 +50,7 @@
       },
       "InstallEvent": {
         "__compat": {
-          "description": "<code>InstallEvent()</code> constructor.",
+          "description": "<code>InstallEvent()</code> constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/InstallEvent/InstallEvent",
           "support": {
             "chrome": {
@@ -63,10 +60,7 @@
               "version_added": "40"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": "44",
@@ -115,10 +109,7 @@
               "version_added": "40"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": "44",

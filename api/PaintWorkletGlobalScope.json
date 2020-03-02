@@ -2,7 +2,7 @@
   "api": {
     "PaintWorkletGlobalScope": {
       "__compat": {
-        "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaintWorkletGlobalScope",
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaintWorklet",
         "support": {
           "chrome": {
             "version_added": "65"
@@ -11,19 +11,16 @@
             "version_added": "65"
           },
           "edge": {
-            "version_added": null
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": "≤79"
           },
           "firefox": {
-            "version_added": true
+            "version_added": null
           },
           "firefox_android": {
-            "version_added": true
+            "version_added": null
           },
           "ie": {
-            "version_added": null
+            "version_added": false
           },
           "opera": {
             "version_added": null
@@ -32,13 +29,13 @@
             "version_added": null
           },
           "safari": {
-            "version_added": true
+            "version_added": null
           },
           "safari_ios": {
-            "version_added": true
+            "version_added": null
           },
           "samsunginternet_android": {
-            "version_added": null
+            "version_added": "9.0"
           },
           "webview_android": {
             "version_added": "65"
@@ -52,7 +49,7 @@
       },
       "devicePixelRatio": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaintWorkletGlobalScope/devicePixelRatio",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaintWorklet/devicePixelRatio",
           "support": {
             "chrome": {
               "version_added": "65"
@@ -61,19 +58,16 @@
               "version_added": "65"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
-              "version_added": null
+              "version_added": false
             },
             "opera": {
               "version_added": null
@@ -82,13 +76,13 @@
               "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": null
+              "version_added": "9.0"
             },
             "webview_android": {
               "version_added": "65"
@@ -103,7 +97,7 @@
       },
       "registerPaint": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaintWorkletGlobalScope/registerPaint",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaintWorklet/registerPaint",
           "support": {
             "chrome": {
               "version_added": "65"
@@ -112,19 +106,16 @@
               "version_added": "65"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": true
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": true
+              "version_added": null
             },
             "ie": {
-              "version_added": null
+              "version_added": false
             },
             "opera": {
               "version_added": null
@@ -133,13 +124,13 @@
               "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": null
+              "version_added": "9.0"
             },
             "webview_android": {
               "version_added": "65"

@@ -11,10 +11,7 @@
             "version_added": "35"
           },
           "edge": {
-            "version_added": null
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": "≤79"
           },
           "firefox": {
             "version_added": "41"
@@ -36,6 +33,9 @@
           },
           "safari_ios": {
             "version_added": "10"
+          },
+          "samsunginternet_android": {
+            "version_added": "4.0"
           },
           "webview_android": {
             "version_added": "37"
@@ -59,10 +59,7 @@
               "version_added": "35"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": "41"
@@ -84,6 +81,9 @@
             },
             "safari_ios": {
               "version_added": "10"
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
             },
             "webview_android": {
               "version_added": "37"
@@ -107,10 +107,7 @@
               "version_added": "60"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": "58"
@@ -125,7 +122,7 @@
               "version_added": "47"
             },
             "opera_android": {
-              "version_added": "47"
+              "version_added": "44"
             },
             "safari": {
               "version_added": "11"
@@ -133,56 +130,11 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": "8.0"
+            },
             "webview_android": {
               "version_added": "60"
-            }
-          },
-          "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "featureSettings": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FontFace/featureSettings",
-          "support": {
-            "chrome": {
-              "version_added": "35"
-            },
-            "chrome_android": {
-              "version_added": "35"
-            },
-            "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
-            },
-            "firefox": {
-              "version_added": true
-            },
-            "firefox_android": {
-              "version_added": true
-            },
-            "ie": {
-              "version_added": null
-            },
-            "opera": {
-              "version_added": true
-            },
-            "opera_android": {
-              "version_added": true
-            },
-            "safari": {
-              "version_added": "10"
-            },
-            "safari_ios": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": "37"
             }
           },
           "status": {
@@ -203,10 +155,7 @@
               "version_added": "35"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -228,6 +177,57 @@
             },
             "safari_ios": {
               "version_added": true
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
+            },
+            "webview_android": {
+              "version_added": "37"
+            }
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "featureSettings": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FontFace/featureSettings",
+          "support": {
+            "chrome": {
+              "version_added": "35"
+            },
+            "chrome_android": {
+              "version_added": "35"
+            },
+            "edge": {
+              "version_added": "≤79"
+            },
+            "firefox": {
+              "version_added": true
+            },
+            "firefox_android": {
+              "version_added": true
+            },
+            "ie": {
+              "version_added": null
+            },
+            "opera": {
+              "version_added": true
+            },
+            "opera_android": {
+              "version_added": true
+            },
+            "safari": {
+              "version_added": "10"
+            },
+            "safari_ios": {
+              "version_added": true
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
             },
             "webview_android": {
               "version_added": "37"
@@ -267,10 +267,7 @@
               }
             ],
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -293,6 +290,17 @@
             "safari_ios": {
               "version_added": true
             },
+            "samsunginternet_android": [
+              {
+                "version_added": "5.0"
+              },
+              {
+                "partial_implementation": true,
+                "version_added": "4.0",
+                "version_removed": "5.0",
+                "notes": "Before Samsung Internet 5.0, the returned promise resolved with void instead of a <code>FontFace</code> object as required by the specification."
+              }
+            ],
             "webview_android": [
               {
                 "version_added": "45"
@@ -339,10 +347,7 @@
               }
             ],
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -365,6 +370,17 @@
             "safari_ios": {
               "version_added": true
             },
+            "samsunginternet_android": [
+              {
+                "version_added": "5.0"
+              },
+              {
+                "partial_implementation": true,
+                "version_added": "4.0",
+                "version_removed": "5.0",
+                "notes": "Before Samsung Internet 5.0, the returned promise resolved with void instead of a <code>FontFace</code> object as required by the specification."
+              }
+            ],
             "webview_android": [
               {
                 "version_added": "45"
@@ -395,10 +411,7 @@
               "version_added": "35"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -420,6 +433,9 @@
             },
             "safari_ios": {
               "version_added": true
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
             },
             "webview_android": {
               "version_added": "37"
@@ -443,10 +459,7 @@
               "version_added": "35"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -468,6 +481,9 @@
             },
             "safari_ios": {
               "version_added": true
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
             },
             "webview_android": {
               "version_added": "37"
@@ -491,10 +507,7 @@
               "version_added": "35"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -516,6 +529,9 @@
             },
             "safari_ios": {
               "version_added": true
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
             },
             "webview_android": {
               "version_added": "37"
@@ -539,10 +555,7 @@
               "version_added": "35"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -564,6 +577,9 @@
             },
             "safari_ios": {
               "version_added": true
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
             },
             "webview_android": {
               "version_added": "37"
@@ -587,10 +603,7 @@
               "version_added": "35"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -612,6 +625,9 @@
             },
             "safari_ios": {
               "version_added": true
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
             },
             "webview_android": {
               "version_added": "37"
@@ -635,10 +651,7 @@
               "version_added": "35"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
               "version_added": true
@@ -660,6 +673,9 @@
             },
             "safari_ios": {
               "version_added": true
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
             },
             "webview_android": {
               "version_added": "37"
@@ -683,16 +699,13 @@
               "version_added": "69"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -708,6 +721,9 @@
             },
             "safari_ios": {
               "version_added": null
+            },
+            "samsunginternet_android": {
+              "version_added": "10.0"
             },
             "webview_android": {
               "version_added": "69"

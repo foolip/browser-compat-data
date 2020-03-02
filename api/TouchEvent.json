@@ -11,7 +11,7 @@
             "version_added": true
           },
           "edge": {
-            "version_added": true,
+            "version_added": "≤18",
             "flags": [
               {
                 "type": "preference",
@@ -19,9 +19,6 @@
                 "value_to_set": "true"
               }
             ]
-          },
-          "edge_mobile": {
-            "version_added": null
           },
           "firefox": [
             {
@@ -78,13 +75,11 @@
               "notes": "Chrome only supports the following <code>touchEventInit</code> properties: <code>touches</code>, <code>targetTouches</code>, <code>changedTouches</code>."
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79",
+              "notes": "Edge only supports the following <code>touchEventInit</code> properties: <code>touches</code>, <code>targetTouches</code>, <code>changedTouches</code>."
             },
             "firefox": {
-              "version_added": true
+              "version_added": null
             },
             "firefox_android": {
               "version_added": true
@@ -105,7 +100,8 @@
               "version_added": "3.2"
             },
             "samsunginternet_android": {
-              "version_added": null
+              "version_added": "5.0",
+              "notes": "Samsung Internet only supports the following <code>touchEventInit</code> properties: <code>touches</code>, <code>targetTouches</code>, <code>changedTouches</code>."
             },
             "webview_android": {
               "version_added": "48",
@@ -130,10 +126,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": [
               {
@@ -187,10 +180,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": [
               {
@@ -244,10 +234,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": [
               {
@@ -301,10 +288,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": [
               {
@@ -358,10 +342,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": [
               {
@@ -415,10 +396,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": [
               {
@@ -472,10 +450,7 @@
               "version_added": true
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": [
               {

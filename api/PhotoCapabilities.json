@@ -11,16 +11,13 @@
             "version_added": "59"
           },
           "edge": {
-            "version_added": null
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": "≤79"
           },
           "firefox": {
-            "version_added": false
+            "version_added": null
           },
           "firefox_android": {
-            "version_added": false
+            "version_added": null
           },
           "ie": {
             "version_added": null
@@ -29,7 +26,7 @@
             "version_added": "46"
           },
           "opera_android": {
-            "version_added": "46"
+            "version_added": "43"
           },
           "safari": {
             "version_added": null
@@ -37,13 +34,16 @@
           "safari_ios": {
             "version_added": null
           },
+          "samsunginternet_android": {
+            "version_added": "7.0"
+          },
           "webview_android": {
             "version_added": "59"
           }
         },
         "status": {
           "experimental": true,
-          "standard_track": false,
+          "standard_track": true,
           "deprecated": false
         }
       },
@@ -58,16 +58,13 @@
               "version_added": "59"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -76,7 +73,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null
@@ -84,13 +81,16 @@
             "safari_ios": {
               "version_added": null
             },
+            "samsunginternet_android": {
+              "version_added": "7.0"
+            },
             "webview_android": {
               "version_added": "59"
             }
           },
           "status": {
             "experimental": true,
-            "standard_track": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -106,16 +106,13 @@
               "version_added": "59"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -124,7 +121,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null
@@ -132,13 +129,16 @@
             "safari_ios": {
               "version_added": null
             },
+            "samsunginternet_android": {
+              "version_added": "7.0"
+            },
             "webview_android": {
               "version_added": "59"
             }
           },
           "status": {
             "experimental": true,
-            "standard_track": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -154,16 +154,13 @@
               "version_added": "59"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -172,7 +169,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null
@@ -180,13 +177,16 @@
             "safari_ios": {
               "version_added": null
             },
+            "samsunginternet_android": {
+              "version_added": "7.0"
+            },
             "webview_android": {
               "version_added": "59"
             }
           },
           "status": {
             "experimental": true,
-            "standard_track": false,
+            "standard_track": true,
             "deprecated": false
           }
         }
@@ -202,16 +202,13 @@
               "version_added": "59"
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79"
             },
             "firefox": {
-              "version_added": false
+              "version_added": null
             },
             "firefox_android": {
-              "version_added": false
+              "version_added": null
             },
             "ie": {
               "version_added": null
@@ -220,7 +217,7 @@
               "version_added": "46"
             },
             "opera_android": {
-              "version_added": "46"
+              "version_added": "43"
             },
             "safari": {
               "version_added": null
@@ -228,13 +225,16 @@
             "safari_ios": {
               "version_added": null
             },
+            "samsunginternet_android": {
+              "version_added": "7.0"
+            },
             "webview_android": {
               "version_added": "59"
             }
           },
           "status": {
             "experimental": true,
-            "standard_track": false,
+            "standard_track": true,
             "deprecated": false
           }
         }

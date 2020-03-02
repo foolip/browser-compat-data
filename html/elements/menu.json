@@ -12,30 +12,21 @@
               "version_added": false
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": true
+              "version_added": "≤18",
+              "version_removed": "79"
             },
             "firefox": {
               "version_added": "8"
             },
             "firefox_android": {
-              "version_added": true,
+              "version_added": "8",
               "notes": "Nested menus are not supported."
             },
             "ie": {
               "version_added": false
             },
             "opera": {
-              "version_added": true,
-              "flags": [
-                {
-                  "type": "preference",
-                  "name": "Enable Experimental Web Platform Features",
-                  "value_to_set": "true"
-                }
-              ]
+              "version_added": false
             },
             "opera_android": {
               "version_added": false
@@ -70,9 +61,6 @@
                 "version_added": false
               },
               "edge": {
-                "version_added": false
-              },
-              "edge_mobile": {
                 "version_added": false
               },
               "firefox": {
@@ -123,9 +111,6 @@
               "edge": {
                 "version_added": false
               },
-              "edge_mobile": {
-                "version_added": false
-              },
               "firefox": {
                 "version_added": "51"
               },
@@ -136,7 +121,7 @@
                 "version_added": false
               },
               "opera": {
-                "version_added": null
+                "version_added": false
               },
               "opera_android": {
                 "version_added": false
@@ -171,23 +156,20 @@
                 "version_added": false
               },
               "edge": {
-                "version_added": true
-              },
-              "edge_mobile": {
-                "version_added": true
+                "version_added": false
               },
               "firefox": {
                 "version_added": "8"
               },
               "firefox_android": {
-                "version_added": true,
+                "version_added": "8",
                 "notes": "Nested menus are not supported."
               },
               "ie": {
                 "version_added": false
               },
               "opera": {
-                "version_added": true
+                "version_added": false
               },
               "opera_android": {
                 "version_added": false
@@ -224,23 +206,21 @@
                   "version_added": false
                 },
                 "edge": {
-                  "version_added": true
-                },
-                "edge_mobile": {
-                  "version_added": true
+                  "version_added": "≤18",
+                  "version_removed": "79"
                 },
                 "firefox": {
                   "version_added": "8"
                 },
                 "firefox_android": {
-                  "version_added": true,
+                  "version_added": "8",
                   "notes": "Nested menus are not supported."
                 },
                 "ie": {
                   "version_added": false
                 },
                 "opera": {
-                  "version_added": true
+                  "version_added": false
                 },
                 "opera_android": {
                   "version_added": false
@@ -276,9 +256,6 @@
                   "version_added": false
                 },
                 "edge": {
-                  "version_added": false
-                },
-                "edge_mobile": {
                   "version_added": false
                 },
                 "firefox": {

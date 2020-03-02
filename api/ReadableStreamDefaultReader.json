@@ -11,10 +11,7 @@
             "version_added": "52"
           },
           "edge": {
-            "version_added": null
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": "≤79"
           },
           "firefox": [
             {
@@ -63,16 +60,16 @@
             "version_added": "39"
           },
           "opera_android": {
-            "version_added": "39"
+            "version_added": "41"
           },
           "safari": {
-            "version_added": true
+            "version_added": null
           },
           "safari_ios": {
-            "version_added": true
+            "version_added": null
           },
           "samsunginternet_android": {
-            "version_added": null
+            "version_added": "6.0"
           },
           "webview_android": {
             "version_added": "52"
@@ -90,15 +87,12 @@
           "description": "<code>ReadableStreamDefaultReader()</code> constructor",
           "support": {
             "chrome": {
-              "version_added": true
-            },
-            "chrome_android": {
-              "version_added": true
-            },
-            "edge": {
               "version_added": null
             },
-            "edge_mobile": {
+            "chrome_android": {
+              "version_added": null
+            },
+            "edge": {
               "version_added": null
             },
             "firefox": [
@@ -145,22 +139,22 @@
               "version_added": null
             },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {
@@ -175,15 +169,12 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/cancel",
           "support": {
             "chrome": {
-              "version_added": true
-            },
-            "chrome_android": {
-              "version_added": true
-            },
-            "edge": {
               "version_added": null
             },
-            "edge_mobile": {
+            "chrome_android": {
+              "version_added": null
+            },
+            "edge": {
               "version_added": null
             },
             "firefox": [
@@ -230,22 +221,22 @@
               "version_added": null
             },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {
@@ -260,15 +251,12 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/closed",
           "support": {
             "chrome": {
-              "version_added": true
-            },
-            "chrome_android": {
-              "version_added": true
-            },
-            "edge": {
               "version_added": null
             },
-            "edge_mobile": {
+            "chrome_android": {
+              "version_added": null
+            },
+            "edge": {
               "version_added": null
             },
             "firefox": [
@@ -315,22 +303,22 @@
               "version_added": null
             },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {
@@ -345,15 +333,12 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/read",
           "support": {
             "chrome": {
-              "version_added": true
-            },
-            "chrome_android": {
-              "version_added": true
-            },
-            "edge": {
               "version_added": null
             },
-            "edge_mobile": {
+            "chrome_android": {
+              "version_added": null
+            },
+            "edge": {
               "version_added": null
             },
             "firefox": [
@@ -400,22 +385,22 @@
               "version_added": null
             },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {
@@ -430,15 +415,12 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/releaseLock",
           "support": {
             "chrome": {
-              "version_added": true
-            },
-            "chrome_android": {
-              "version_added": true
-            },
-            "edge": {
               "version_added": null
             },
-            "edge_mobile": {
+            "chrome_android": {
+              "version_added": null
+            },
+            "edge": {
               "version_added": null
             },
             "firefox": [
@@ -485,22 +467,22 @@
               "version_added": null
             },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
-              "version_added": true
+              "version_added": null
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": null
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {

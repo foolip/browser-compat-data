@@ -9,22 +9,32 @@
             "prefix": "Webkit"
           },
           "chrome_android": {
-            "version_added": null
+            "version_added": "18",
+            "prefix": "Webkit"
           },
-          "edge": {
-            "version_added": true
-          },
-          "edge_mobile": {
-            "version_added": true
-          },
+          "edge": [
+            {
+              "version_added": "79",
+              "prefix": "Webkit"
+            },
+            {
+              "version_added": "≤18",
+              "version_removed": "79"
+            },
+            {
+              "version_added": "12",
+              "version_removed": "79",
+              "prefix": "MS"
+            }
+          ],
           "firefox": {
-            "version_added": true,
+            "version_added": "6",
             "version_removed": "18",
             "prefix": "Moz",
             "notes": "Starting in Firefox 14, using <code>MozBlobBuilder</code> will show a warning message in the web console that the use of <code>MozBlobBuilder</code> is deprecated and suggests to use <a href='https://developer.mozilla.org/docs/Web/API/Blob'><code>Blob</code></a> constructor instead."
           },
           "firefox_android": {
-            "version_added": true,
+            "version_added": "6",
             "version_removed": "18",
             "prefix": "Moz",
             "notes": "Starting in Firefox 14, using <code>MozBlobBuilder</code> will show a warning message in the web console that the use of <code>MozBlobBuilder</code> is deprecated and suggests to use <a href='https://developer.mozilla.org/docs/Web/API/Blob'><code>Blob</code></a> constructor instead."
@@ -46,7 +56,8 @@
             "version_added": false
           },
           "samsunginternet_android": {
-            "version_added": null
+            "version_added": "1.0",
+            "prefix": "Webkit"
           },
           "webview_android": {
             "version_added": "3",

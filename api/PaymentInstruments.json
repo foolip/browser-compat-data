@@ -25,10 +25,14 @@
             ]
           },
           "edge": {
-            "version_added": null
-          },
-          "edge_mobile": {
-            "version_added": null
+            "version_added": "≤79",
+            "flags": [
+              {
+                "type": "preference",
+                "name": "#service-worker-payment-apps",
+                "value_to_set": "Enabled"
+              }
+            ]
           },
           "firefox": {
             "version_added": false
@@ -52,7 +56,7 @@
             "version_added": null
           },
           "samsunginternet_android": {
-            "version_added": "7.0"
+            "version_added": false
           },
           "webview_android": {
             "version_added": false
@@ -90,10 +94,14 @@
               ]
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "#service-worker-payment-apps",
+                  "value_to_set": "Enabled"
+                }
+              ]
             },
             "firefox": {
               "version_added": false
@@ -156,10 +164,14 @@
               ]
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "#service-worker-payment-apps",
+                  "value_to_set": "Enabled"
+                }
+              ]
             },
             "firefox": {
               "version_added": false
@@ -222,10 +234,14 @@
               ]
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "#service-worker-payment-apps",
+                  "value_to_set": "Enabled"
+                }
+              ]
             },
             "firefox": {
               "version_added": false
@@ -288,10 +304,14 @@
               ]
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "#service-worker-payment-apps",
+                  "value_to_set": "Enabled"
+                }
+              ]
             },
             "firefox": {
               "version_added": false
@@ -354,10 +374,14 @@
               ]
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "#service-worker-payment-apps",
+                  "value_to_set": "Enabled"
+                }
+              ]
             },
             "firefox": {
               "version_added": false
@@ -420,10 +444,14 @@
               ]
             },
             "edge": {
-              "version_added": null
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤79",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "#service-worker-payment-apps",
+                  "value_to_set": "Enabled"
+                }
+              ]
             },
             "firefox": {
               "version_added": false

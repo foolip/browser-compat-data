@@ -4,8 +4,27 @@ const assert = require('assert');
 const bcd = require('..');
 const compareVersions = require('compare-versions');
 
-const browsers = ['chrome', 'chrome_android', 'edge', 'firefox', 'ie', 'safari', 'safari_ios', 'webview_android'];
-let stats = { total: { all: 0, true: 0, null: 0, real: 0 } };
+/**
+ * @typedef {object} VersionStats
+ * @property {number} all The total number of occurrences for the browser.
+ * @property {number} true The total number of `true` values for the browser.
+ * @property {number} null The total number of `null` values for the browser.
+ * @property {number} range The total number of range values for the browser.
+ * @property {number} real The total number of real values for the browser.
+ */
+
+const browsers = [
+  'chrome',
+  'chrome_android',
+  'edge',
+  'firefox',
+  'ie',
+  'safari',
+  'safari_ios',
+  'webview_android',
+];
+/** @type {{total: VersionStats; [browser: string]: VersionStats}} */
+let stats = { total: { all: 0, true: 0, null: 0, range: 0, real: 0 } };
 browsers.forEach(browser => {
   const bcdReleaseData = bcd.browsers[browser].releases;
   const versions = Object.keys(bcdReleaseData);
@@ -21,14 +40,25 @@ browsers.forEach(browser => {
     });
   }
   const no_release = new Set;
-  stats[browser] = { all: 0, true: 0, null: 0, real: 0, versions, releases, no_release }
+  stats[browser] = { all: 0, true: 0, null: 0, range: 0, real: 0, versions, releases, no_release }
 });
 
 const checkSupport = (supportData, type) => {
   if (!Array.isArray(supportData)) {
     supportData = [supportData];
   }
-  return supportData.some(item => item.version_added === type || item.version_removed === type)
+  if (type == '≤') {
+    return supportData.some(
+      item =>
+        (typeof item.version_added == 'string' &&
+          item.version_added.startsWith('≤')) ||
+        (typeof item.version_removed == 'string' &&
+          item.version_removed.startsWith('≤')),
+    );
+  }
+  return supportData.some(
+    item => item.version_added === type || item.version_removed === type,
+  );
 };
 
 // Get release when this was added. Can return the same values as
@@ -111,10 +141,13 @@ const processData = (data, path) => {
           stats[browser].null++;
           stats.total.null++;
           real_value = false;
-        }
-        if (checkSupport(data.support[browser], true)) {
+        } else if (checkSupport(data.support[browser], true)) {
           stats[browser].true++;
           stats.total.true++;
+          real_value = false;
+        } else if (checkSupport(data.support[browser], '≤')) {
+          stats[browser].range++;
+          stats.total.range++;
           real_value = false;
         }
         const versions = stats[browser].versions;
@@ -134,7 +167,7 @@ const processData = (data, path) => {
 };
 
 const iterateData = (data, path) => {
-  for (let key in data) {
+  for (const key in data) {
     if (key === '__compat') {
       processData(data[key], path);
     } else {
@@ -143,27 +176,34 @@ const iterateData = (data, path) => {
   }
 };
 
-for (let key in bcd) {
-  if ((key === 'api' || key === 'css' || key === 'javascript')) {
-    iterateData(bcd[key], key);
+if (process.argv[2]) {
+  iterateData(bcd[process.argv[2]]);
+} else {
+  for (const key in bcd) {
+    if ((key === 'api' || key === 'css' || key === 'javascript')) {
+      iterateData(bcd[key], key);
+    }
   }
 }
 
 const printTable = () => {
-  let table = `| browser | real values | \`true\` values | \`null\` values |
-| --- | --- | --- | --- |
+  let table = `| browser | real values | ranged values | \`true\` values | \`null\` values |
+| --- | --- | --- | --- | --- |
 `;
 
   Object.keys(stats).forEach(entry => {
     table += `| ${entry.replace('_', ' ')} | `;
     table += `${((stats[entry].real / stats[entry].all) * 100).toFixed(2)}% | `;
+    table += `${((stats[entry].range / stats[entry].all) * 100).toFixed(
+      2,
+    )}% | `;
     table += `${((stats[entry].true / stats[entry].all) * 100).toFixed(2)}% | `;
     table += `${((stats[entry].null / stats[entry].all) * 100).toFixed(2)}% |
 `;
   });
 
   console.log(table);
-}
+};
 
 const printBrowserStats = () => {
   console.log(`browser,version,date,added,min_total,max_total`);
@@ -262,3 +302,9 @@ const printInteropStats = () => {
 //printTable();
 //printBrowserStats();
 printInteropStats();
+console.log(
+  `Status as of version 0.0.xx (released on 2019-MM-DD) for ${
+    process.argv[2] ? `${process.argv[2]}/ directory` : `web platform features`
+  }: \n`,
+);
+printTable();

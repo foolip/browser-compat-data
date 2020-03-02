@@ -9,15 +9,13 @@
             "prefix": "webkit"
           },
           "chrome_android": {
-            "version_added": null
+            "version_added": "18",
+            "prefix": "webkit"
           },
           "edge": {
-            "version_added": true,
+            "version_added": "≤18",
             "prefix": "WebKit",
             "notes": "Edge only supports this API in drag-and-drop scenarios using the the <code><a href='https://developer.mozilla.org/docs/Web/API/DataTransferItem/webkitGetAsEntry'>DataTransferItem.webkitGetAsEntry()</a></code> method. It's not available for use in file or folder picker panels (such as when you use an <code><a href='https://developer.mozilla.org/docs/Web/HTML/Element/input'>&lt;input&gt;</a></code> element with the <code><a href='https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory'>HTMLInputElement.webkitdirectory</a></code> attribute."
-          },
-          "edge_mobile": {
-            "version_added": null
           },
           "firefox": {
             "version_added": "50"
@@ -33,7 +31,7 @@
             "prefix": "webkit"
           },
           "opera_android": {
-            "version_added": "15",
+            "version_added": "14",
             "prefix": "webkit"
           },
           "safari": {
@@ -42,14 +40,19 @@
           "safari_ios": {
             "version_added": false
           },
+          "samsunginternet_android": {
+            "prefix": "webkit",
+            "version_added": "1.0"
+          },
           "webview_android": {
-            "version_added": null
+            "version_added": "37",
+            "prefix": "webkit"
           }
         },
         "status": {
           "experimental": false,
-          "standard_track": false,
-          "deprecated": true
+          "standard_track": true,
+          "deprecated": false
         }
       },
       "name": {
@@ -60,13 +63,10 @@
               "version_added": "13"
             },
             "chrome_android": {
-              "version_added": null
+              "version_added": "18"
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": "50"
@@ -81,7 +81,7 @@
               "version_added": "15"
             },
             "opera_android": {
-              "version_added": "15"
+              "version_added": "14"
             },
             "safari": {
               "version_added": false
@@ -89,14 +89,17 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": "1.0"
+            },
             "webview_android": {
-              "version_added": null
+              "version_added": "37"
             }
           },
           "status": {
             "experimental": false,
-            "standard_track": false,
-            "deprecated": true
+            "standard_track": true,
+            "deprecated": false
           }
         }
       },
@@ -108,13 +111,10 @@
               "version_added": "13"
             },
             "chrome_android": {
-              "version_added": null
+              "version_added": "18"
             },
             "edge": {
-              "version_added": true
-            },
-            "edge_mobile": {
-              "version_added": null
+              "version_added": "≤18"
             },
             "firefox": {
               "version_added": "50"
@@ -129,7 +129,7 @@
               "version_added": "15"
             },
             "opera_android": {
-              "version_added": "15"
+              "version_added": "14"
             },
             "safari": {
               "version_added": false
@@ -137,14 +137,17 @@
             "safari_ios": {
               "version_added": false
             },
+            "samsunginternet_android": {
+              "version_added": "1.0"
+            },
             "webview_android": {
-              "version_added": null
+              "version_added": "37"
             }
           },
           "status": {
             "experimental": false,
-            "standard_track": false,
-            "deprecated": true
+            "standard_track": true,
+            "deprecated": false
           }
         }
       }

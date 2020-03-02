@@ -210,7 +210,7 @@
                 "version_added": true
               },
               "edge": {
-                "version_added": false
+                "version_added": "79"
               },
               "firefox": {
                 "version_added": "45"
@@ -357,6 +357,48 @@
                 "version_added": true
               }
             }
+          },
+          "OnClickData": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": {
+                  "version_added": false
+                },
+                "firefox": {
+                  "version_added": "72"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": false
+                }
+              }
+            }
+          },
+          "tab": {
+            "__compat": {
+              "support": {
+                "chrome": {
+                  "version_added": true
+                },
+                "edge": {
+                  "version_added": "14"
+                },
+                "firefox": {
+                  "version_added": "45"
+                },
+                "firefox_android": {
+                  "version_added": "55"
+                },
+                "opera": {
+                  "version_added": true
+                }
+              }
+            }
           }
         },
         "openPopup": {
@@ -364,10 +406,24 @@
             "mdn_url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/openPopup",
             "support": {
               "chrome": {
-                "version_added": "67"
+                "version_added": "67",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "#extension-apis",
+                    "value_to_set": "Enabled"
+                  }
+                ]
               },
               "edge": {
-                "version_added": false
+                "version_added": "79",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "#extension-apis",
+                    "value_to_set": "Enabled"
+                  }
+                ]
               },
               "firefox": {
                 "version_added": "57"
@@ -409,25 +465,25 @@
               }
             }
           },
-          "string": {
-            "__compat": {
-              "description": "The <code>color</code> property of the <code>details</code> parameter can be set to a string.",
-              "support": {
-                "chrome": {
-                  "version_added": true
-                },
-                "edge": {
-                  "version_added": false
-                },
-                "firefox": {
-                  "version_added": true,
-                  "notes": "Before Firefox 59, invalid color strings behaved as <code>null</code>."
-                },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": null
+          "details": {
+            "windowId": {
+              "__compat": {
+                "support": {
+                  "chrome": {
+                    "version_added": false
+                  },
+                  "edge": {
+                    "version_added": false
+                  },
+                  "firefox": {
+                    "version_added": "62"
+                  },
+                  "firefox_android": {
+                    "version_added": false
+                  },
+                  "opera": {
+                    "version_added": false
+                  }
                 }
               }
             }
@@ -454,25 +510,25 @@
               }
             }
           },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  }
+          "string": {
+            "__compat": {
+              "description": "The <code>color</code> property of the <code>details</code> parameter can be set to a string.",
+              "support": {
+                "chrome": {
+                  "version_added": true
+                },
+                "edge": {
+                  "version_added": "79"
+                },
+                "firefox": {
+                  "version_added": true,
+                  "notes": "Before Firefox 59, invalid color strings behaved as <code>null</code>."
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": true
                 }
               }
             }
@@ -506,28 +562,6 @@
               }
             }
           },
-          "null": {
-            "__compat": {
-              "description": "The <code>text</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "edge": {
-                  "version_added": false
-                },
-                "firefox": {
-                  "version_added": "59"
-                },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": false
-                }
-              }
-            }
-          },
           "details": {
             "windowId": {
               "__compat": {
@@ -547,6 +581,28 @@
                   "opera": {
                     "version_added": false
                   }
+                }
+              }
+            }
+          },
+          "null": {
+            "__compat": {
+              "description": "The <code>text</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": {
+                  "version_added": false
+                },
+                "firefox": {
+                  "version_added": "59"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": false
                 }
               }
             }
@@ -608,6 +664,29 @@
               }
             }
           },
+          "details": {
+            "windowId": {
+              "__compat": {
+                "support": {
+                  "chrome": {
+                    "version_added": false
+                  },
+                  "edge": {
+                    "version_added": false
+                  },
+                  "firefox": {
+                    "version_added": "62"
+                  },
+                  "firefox_android": {
+                    "version_added": false
+                  },
+                  "opera": {
+                    "version_added": false
+                  }
+                }
+              }
+            }
+          },
           "imageData": {
             "__compat": {
               "support": {
@@ -615,7 +694,7 @@
                   "version_added": "23"
                 },
                 "edge": {
-                  "version_added": false
+                  "version_added": "79"
                 },
                 "firefox": {
                   "version_added": "45"
@@ -647,29 +726,6 @@
                 },
                 "opera": {
                   "version_added": false
-                }
-              }
-            }
-          },
-          "details": {
-            "windowId": {
-              "__compat": {
-                "support": {
-                  "chrome": {
-                    "version_added": false
-                  },
-                  "edge": {
-                    "version_added": false
-                  },
-                  "firefox": {
-                    "version_added": "62"
-                  },
-                  "firefox_android": {
-                    "version_added": false
-                  },
-                  "opera": {
-                    "version_added": false
-                  }
                 }
               }
             }
@@ -710,28 +766,6 @@
               }
             }
           },
-          "null": {
-            "__compat": {
-              "description": "The <code>popup</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "edge": {
-                  "version_added": false
-                },
-                "firefox": {
-                  "version_added": "59"
-                },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": false
-                }
-              }
-            }
-          },
           "details": {
             "windowId": {
               "__compat": {
@@ -751,6 +785,28 @@
                   "opera": {
                     "version_added": false
                   }
+                }
+              }
+            }
+          },
+          "null": {
+            "__compat": {
+              "description": "The <code>popup</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": {
+                  "version_added": false
+                },
+                "firefox": {
+                  "version_added": "59"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": false
                 }
               }
             }
@@ -791,28 +847,6 @@
               }
             }
           },
-          "null": {
-            "__compat": {
-              "description": "The <code>title</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "edge": {
-                  "version_added": false
-                },
-                "firefox": {
-                  "version_added": "59"
-                },
-                "firefox_android": {
-                  "version_added": false
-                },
-                "opera": {
-                  "version_added": false
-                }
-              }
-            }
-          },
           "details": {
             "windowId": {
               "__compat": {
@@ -832,6 +866,28 @@
                   "opera": {
                     "version_added": false
                   }
+                }
+              }
+            }
+          },
+          "null": {
+            "__compat": {
+              "description": "The <code>title</code> property of the <code>details</code> parameter can be set to <code>null</code>.",
+              "support": {
+                "chrome": {
+                  "version_added": false
+                },
+                "edge": {
+                  "version_added": false
+                },
+                "firefox": {
+                  "version_added": "59"
+                },
+                "firefox_android": {
+                  "version_added": false
+                },
+                "opera": {
+                  "version_added": false
                 }
               }
             }

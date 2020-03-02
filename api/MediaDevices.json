@@ -11,10 +11,7 @@
             "version_added": "47"
           },
           "edge": {
-            "version_added": true
-          },
-          "edge_mobile": {
-            "version_added": true
+            "version_added": "≤18"
           },
           "firefox": {
             "version_added": "33"
@@ -38,7 +35,7 @@
             "version_added": "11"
           },
           "samsunginternet_android": {
-            "version_added": true
+            "version_added": "5.0"
           },
           "webview_android": {
             "version_added": "47"
@@ -48,71 +45,6 @@
           "experimental": false,
           "standard_track": true,
           "deprecated": false
-        }
-      },
-      "ondevicechange": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaDevices/ondevicechange",
-          "support": {
-            "chrome": {
-              "version_added": "57"
-            },
-            "chrome_android": {
-              "version_added": false
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "edge_mobile": {
-              "version_added": null
-            },
-            "firefox": [
-              {
-                "version_added": "52"
-              },
-              {
-                "version_added": "51",
-                "version_removed": "52",
-                "flags": [
-                  {
-                    "type": "preference",
-                    "name": "media.ondevicechange.enabled",
-                    "value_to_set": "true"
-                  }
-                ],
-                "notes": "<code>MediaDevices.ondevicechange</code> is supported only on macOS."
-              }
-            ],
-            "firefox_android": {
-              "version_added": true
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "34"
-            },
-            "opera_android": {
-              "version_added": "34"
-            },
-            "safari": {
-              "version_added": false
-            },
-            "safari_ios": {
-              "version_added": false
-            },
-            "samsunginternet_android": {
-              "version_added": null
-            },
-            "webview_android": {
-              "version_added": false
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
         }
       },
       "devicechange_event": {
@@ -128,9 +60,6 @@
             },
             "edge": {
               "version_added": "12"
-            },
-            "edge_mobile": {
-              "version_added": null
             },
             "firefox": {
               "version_added": "52"
@@ -154,7 +83,7 @@
               "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": null
+              "version_added": false
             },
             "webview_android": {
               "version_added": false
@@ -180,21 +109,38 @@
             "edge": {
               "version_added": "12"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": [
               {
                 "version_added": "63",
-                "notes": "Prior to Firefox 63, <code>enumerateDevices()</code> only returned input devices. Starting with Firefox 63, output devices are also included."
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "media.setsinkid.enabled",
+                    "value_to_set": "true"
+                  }
+                ],
+                "notes": "Prior to Firefox 63, <code>enumerateDevices()</code> only returned input devices. Starting with Firefox 63, output devices are also included if the <code>media.setsinkid.enabled</code> preference is enabled."
               },
               {
                 "version_added": "39"
               }
             ],
-            "firefox_android": {
-              "version_added": "39"
-            },
+            "firefox_android": [
+              {
+                "version_added": "63",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "media.setsinkid.enabled",
+                    "value_to_set": "true"
+                  }
+                ],
+                "notes": "Prior to Firefox 63, <code>enumerateDevices()</code> only returned input devices. Starting with Firefox 63, output devices are also included if the <code>media.setsinkid.enabled</code> preference is enabled."
+              },
+              {
+                "version_added": "39"
+              }
+            ],
             "ie": {
               "version_added": false
             },
@@ -211,61 +157,10 @@
               "version_added": "11"
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": "5.0"
             },
             "webview_android": {
               "version_added": "47"
-            }
-          },
-          "status": {
-            "experimental": false,
-            "standard_track": true,
-            "deprecated": false
-          }
-        }
-      },
-      "getSupportedConstraints": {
-        "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaDevices/getSupportedConstraints",
-          "support": {
-            "chrome": {
-              "version_added": "53"
-            },
-            "chrome_android": {
-              "version_added": "52"
-            },
-            "edge": {
-              "version_added": "12"
-            },
-            "edge_mobile": {
-              "version_added": null
-            },
-            "firefox": {
-              "version_added": "44"
-            },
-            "firefox_android": {
-              "version_added": "50"
-            },
-            "ie": {
-              "version_added": false
-            },
-            "opera": {
-              "version_added": "40"
-            },
-            "opera_android": {
-              "version_added": "40"
-            },
-            "safari": {
-              "version_added": "11"
-            },
-            "safari_ios": {
-              "version_added": "11"
-            },
-            "samsunginternet_android": {
-              "version_added": true
-            },
-            "webview_android": {
-              "version_added": "53"
             }
           },
           "status": {
@@ -300,13 +195,15 @@
             "chrome_android": {
               "version_added": false
             },
-            "edge": {
-              "version_added": "17",
-              "notes": "Available as a member of <code>Navigator</code> instead of <code>MediaDevices</code>."
-            },
-            "edge_mobile": {
-              "version_added": true
-            },
+            "edge": [
+              {
+                "version_added": "79"
+              },
+              {
+                "version_added": "17",
+                "notes": "Available as a member of <code>Navigator</code> instead of <code>MediaDevices</code>."
+              }
+            ],
             "firefox": [
               {
                 "version_added": "66"
@@ -337,7 +234,7 @@
               "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": null
+              "version_added": false
             },
             "webview_android": {
               "version_added": false,
@@ -356,16 +253,15 @@
             "description": "Audio capture support",
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": "74",
+                "notes": "On Windows and Chrome OS the entire system audio can be captured, but on Linux and Mac only the audio of a tab can be captured."
               },
               "chrome_android": {
                 "version_added": false
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": "≤79",
+                "notes": "On Windows and Edge OS the entire system audio can be captured, but on Linux and Mac only the audio of a tab can be captured."
               },
               "firefox": {
                 "version_added": false
@@ -400,6 +296,54 @@
               "standard_track": true,
               "deprecated": false
             }
+          }
+        }
+      },
+      "getSupportedConstraints": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaDevices/getSupportedConstraints",
+          "support": {
+            "chrome": {
+              "version_added": "53"
+            },
+            "chrome_android": {
+              "version_added": "52"
+            },
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "50"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "40"
+            },
+            "opera_android": {
+              "version_added": "41"
+            },
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": {
+              "version_added": "11"
+            },
+            "samsunginternet_android": {
+              "version_added": "6.0"
+            },
+            "webview_android": {
+              "version_added": "53"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
           }
         }
       },
@@ -444,9 +388,6 @@
             "edge": {
               "version_added": "12"
             },
-            "edge_mobile": {
-              "version_added": true
-            },
             "firefox": {
               "version_added": "36",
               "notes": [
@@ -487,11 +428,11 @@
             ],
             "opera_android": [
               {
-                "version_added": "40"
+                "version_added": "41"
               },
               {
                 "version_added": "34",
-                "version_removed": "40",
+                "version_removed": "41",
                 "flags": [
                   {
                     "type": "preference",
@@ -509,7 +450,7 @@
               "version_added": "11"
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": "6.0"
             },
             "webview_android": {
               "version_added": "53"
@@ -532,16 +473,13 @@
                 "version_added": true
               },
               "edge": {
-                "version_added": null
-              },
-              "edge_mobile": {
-                "version_added": null
+                "version_added": "79"
               },
               "firefox": {
-                "version_added": true
+                "version_added": "68"
               },
               "firefox_android": {
-                "version_added": true
+                "version_added": "68"
               },
               "ie": {
                 "version_added": false
@@ -559,10 +497,10 @@
                 "version_added": null
               },
               "samsunginternet_android": {
-                "version_added": null
+                "version_added": true
               },
               "webview_android": {
-                "version_added": null
+                "version_added": true
               }
             },
             "status": {
@@ -573,20 +511,79 @@
           }
         }
       },
+      "ondevicechange": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaDevices/ondevicechange",
+          "support": {
+            "chrome": {
+              "version_added": "57"
+            },
+            "chrome_android": {
+              "version_added": false
+            },
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": [
+              {
+                "version_added": "52"
+              },
+              {
+                "version_added": "51",
+                "version_removed": "52",
+                "flags": [
+                  {
+                    "type": "preference",
+                    "name": "media.ondevicechange.enabled",
+                    "value_to_set": "true"
+                  }
+                ],
+                "notes": "<code>MediaDevices.ondevicechange</code> is supported only on macOS."
+              }
+            ],
+            "firefox_android": {
+              "version_added": true
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "34"
+            },
+            "opera_android": {
+              "version_added": "34"
+            },
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": {
+              "version_added": false
+            },
+            "samsunginternet_android": {
+              "version_added": false
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "stereo_audio_capture": {
         "__compat": {
           "description": "Stereo audio capture",
           "support": {
             "chrome": {
-              "version_added": true
-            },
-            "chrome_android": {
-              "version_added": true
-            },
-            "edge": {
               "version_added": null
             },
-            "edge_mobile": {
+            "chrome_android": {
+              "version_added": null
+            },
+            "edge": {
               "version_added": null
             },
             "firefox": {
@@ -599,10 +596,10 @@
               "version_added": false
             },
             "opera": {
-              "version_added": true
+              "version_added": null
             },
             "opera_android": {
-              "version_added": true
+              "version_added": null
             },
             "safari": {
               "version_added": false
@@ -611,10 +608,10 @@
               "version_added": false
             },
             "samsunginternet_android": {
-              "version_added": true
+              "version_added": null
             },
             "webview_android": {
-              "version_added": true
+              "version_added": null
             }
           },
           "status": {
