@@ -443,7 +443,7 @@
               "version_added": "56"
             },
             "edge": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": false

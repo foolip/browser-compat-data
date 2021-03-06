@@ -1460,7 +1460,7 @@
               "version_removed": "54"
             },
             "edge": {
-              "version_added": null
+              "version_added": false
             },
             "firefox": {
               "version_added": false
@@ -1608,7 +1608,7 @@
               "version_added": "≤52"
             },
             "edge": {
-              "version_added": "79"
+              "version_added": "12"
             },
             "firefox": {
               "version_added": "28"
