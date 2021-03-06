@@ -544,7 +544,7 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "≤45"
             },
             "firefox_android": {
               "version_added": true
@@ -749,7 +749,7 @@
               "version_added": false
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null
@@ -801,7 +801,7 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null
@@ -897,7 +897,7 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null
@@ -993,7 +993,7 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "≤45"
             },
             "firefox_android": {
               "version_added": true
@@ -1092,7 +1092,7 @@
               "version_removed": "79"
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null

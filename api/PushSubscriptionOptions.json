@@ -62,7 +62,7 @@
               "version_added": "17"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "48"
             },
             "firefox_android": {
               "version_added": true
@@ -110,7 +110,7 @@
               "version_added": "17"
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null

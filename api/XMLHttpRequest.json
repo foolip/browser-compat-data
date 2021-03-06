@@ -115,7 +115,7 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "≤45"
             },
             "firefox_android": {
               "version_added": true
@@ -654,7 +654,7 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "≤45"
             },
             "firefox_android": {
               "version_added": true
@@ -1354,7 +1354,7 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true,
+              "version_added": "≤45",
               "notes": "Prior to Firefox 51, an error parsing the received data added a <code>&lt;parsererror&gt;</code> node to the top of the <code>Document</code> and then returned the <code>Document</code> in whatever state it happens to be in. This was inconsistent with the specification. Starting with Firefox 51, this scenario now correctly returns <code>null</code> as per the spec."
             },
             "firefox_android": {
@@ -1952,7 +1952,7 @@
               "version_added": "12"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "≤45"
             },
             "firefox_android": {
               "version_added": true

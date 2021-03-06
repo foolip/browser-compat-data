@@ -503,7 +503,7 @@
               "version_added": "15"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "≤45"
             },
             "firefox_android": {
               "version_added": true
@@ -1649,7 +1649,7 @@
               "version_added": "15"
             },
             "firefox": {
-              "version_added": true
+              "version_added": "≤45"
             },
             "firefox_android": {
               "version_added": true
@@ -1980,7 +1980,7 @@
               "version_added": "15"
             },
             "firefox": {
-              "version_added": "52"
+              "version_added": "≤45"
             },
             "firefox_android": {
               "version_added": true
@@ -2697,7 +2697,7 @@
               "version_added": false
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null

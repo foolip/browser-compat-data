@@ -140,7 +140,7 @@
               "version_removed": "79"
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null
@@ -193,7 +193,7 @@
               "version_removed": "79"
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null
@@ -246,7 +246,7 @@
               "version_removed": "79"
             },
             "firefox": {
-              "version_added": null
+              "version_added": false
             },
             "firefox_android": {
               "version_added": null
