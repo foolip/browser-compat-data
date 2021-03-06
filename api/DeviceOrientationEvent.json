@@ -131,7 +131,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": false
             },
             "safari_ios": {
               "version_added": "4.2"
@@ -179,7 +179,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": false
             },
             "safari_ios": {
               "version_added": "4.2"
@@ -227,7 +227,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": false
             },
             "safari_ios": {
               "version_added": "4.2"
@@ -275,7 +275,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": null
+              "version_added": false
             },
             "safari_ios": {
               "version_added": "4.2"

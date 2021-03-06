@@ -409,7 +409,7 @@
               "version_added": null
             },
             "safari": {
-              "version_added": null
+              "version_added": false
             },
             "safari_ios": {
               "version_added": null
@@ -2032,7 +2032,7 @@
               "version_removed": "14"
             },
             "safari": {
-              "version_added": null
+              "version_added": false
             },
             "safari_ios": {
               "version_added": null
@@ -2212,7 +2212,7 @@
               ]
             },
             "safari": {
-              "version_added": "13.1"
+              "version_added": "12.1"
             },
             "safari_ios": {
               "version_added": "13.4"

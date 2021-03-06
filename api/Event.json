@@ -141,7 +141,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": true
@@ -192,7 +192,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": true
@@ -264,7 +264,7 @@
               "notes": "Starting with Chrome 58 and Opera 45, setting this property to false does nothing, as per <a href='https://github.com/whatwg/dom/issues/211'>spec discussion</a>."
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": true
@@ -318,7 +318,7 @@
               "version_added": "41"
             },
             "safari": {
-              "version_added": true
+              "version_added": "10.1"
             },
             "safari_ios": {
               "version_added": true
@@ -471,7 +471,7 @@
               "version_added": "10.1"
             },
             "safari": {
-              "version_added": "10"
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": "10"
@@ -573,7 +573,7 @@
               "version_added": "32"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": true
@@ -679,7 +679,7 @@
               "version_added": false
             },
             "safari": {
-              "version_added": null
+              "version_added": false
             },
             "safari_ios": {
               "version_added": null
@@ -746,7 +746,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": true
@@ -1070,7 +1070,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": true
@@ -1121,7 +1121,7 @@
               "version_added": true
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": true
@@ -1333,7 +1333,7 @@
               "notes": "Starting with Chrome 49, Firefox 54 and Opera 36, this property returns <a href='https://developer.mozilla.org/docs/Web/API/DOMHighResTimeStamp'><code>DOMHighResTimeStamp</code></a> instead of <a href='https://developer.mozilla.org/docs/Web/API/DOMTimeStamp'><code>DOMTimeStamp</code></a>."
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7"
             },
             "safari_ios": {
               "version_added": true

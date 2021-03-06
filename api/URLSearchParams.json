@@ -302,7 +302,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": "10.1"
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": "10.3"
@@ -353,9 +357,13 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true,
+              "version_added": "≤7",
               "partial_implementation": true,
-              "notes": "Removing a non-existent query parameter doesn't remove <code>?</code> from the URL. See <a href='https://webkit.org/b/193022'>bug 193022</a>."
+              "notes": "Removing a non-existent query parameter doesn't remove <code>?</code> from the URL. See <a href='https://webkit.org/b/193022'>bug 193022</a>.",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true,
@@ -408,7 +416,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true
@@ -456,7 +468,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true
@@ -507,7 +523,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true
@@ -558,7 +578,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true
@@ -609,7 +633,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true
@@ -660,7 +688,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true
@@ -711,7 +743,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true
@@ -762,7 +798,7 @@
               "version_added": "45"
             },
             "safari": {
-              "version_added": true
+              "version_added": "11"
             },
             "safari_ios": {
               "version_added": true
@@ -864,7 +900,11 @@
               "version_added": "36"
             },
             "safari": {
-              "version_added": true
+              "version_added": "≤7",
+              "maintainer_notes": [
+                "Removed in 10.1",
+                "Added in 11"
+              ]
             },
             "safari_ios": {
               "version_added": true
