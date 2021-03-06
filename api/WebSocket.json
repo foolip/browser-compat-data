@@ -135,7 +135,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/binaryType",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -183,7 +183,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/bufferedAmount",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -391,7 +391,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/extensions",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -488,7 +488,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/onclose",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -536,7 +536,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/onerror",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -584,7 +584,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/onmessage",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -632,7 +632,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/onopen",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -729,7 +729,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/protocol",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -957,7 +957,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebSocket/url",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true

@@ -52,7 +52,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/applyConstraints",
           "support": {
             "chrome": {
-              "version_added": "63"
+              "version_added": "59"
             },
             "chrome_android": {
               "version_added": "63"
@@ -100,7 +100,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/clone",
           "support": {
             "chrome": {
-              "version_added": "45"
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": "45"
@@ -196,7 +196,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/enabled",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -293,7 +293,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getCapabilities",
           "support": {
             "chrome": {
-              "version_added": "66"
+              "version_added": "59"
             },
             "chrome_android": {
               "version_added": "66"
@@ -389,7 +389,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getSettings",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "59"
             },
             "chrome_android": {
               "version_added": "61"
@@ -488,7 +488,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/id",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -584,7 +584,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/kind",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -632,7 +632,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/label",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -729,7 +729,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/muted",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -777,7 +777,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/onended",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -873,7 +873,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/onmute",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -969,7 +969,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/onunmute",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -1017,7 +1017,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/readonly",
           "support": {
             "chrome": {
-              "version_added": null
+              "version_added": false
             },
             "chrome_android": {
               "version_added": null
@@ -1065,7 +1065,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/readyState",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -1168,7 +1168,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/stop",
           "support": {
             "chrome": {
-              "version_added": "61"
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": "61"

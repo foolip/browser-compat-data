@@ -151,7 +151,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DataTransfer/clearData",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -199,7 +199,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DataTransfer/dropEffect",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -247,7 +247,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DataTransfer/effectAllowed",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -295,7 +295,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DataTransfer/files",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -343,7 +343,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DataTransfer/getData",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -881,7 +881,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DataTransfer/setDragImage",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -929,7 +929,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DataTransfer/types",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true

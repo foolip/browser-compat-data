@@ -2544,7 +2544,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/pause",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true

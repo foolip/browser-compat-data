@@ -405,7 +405,11 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioContext/createMediaElementSource",
           "support": {
             "chrome": {
-              "version_added": "14"
+              "version_added": "14",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 71"
+              ]
             },
             "chrome_android": {
               "version_added": "18"
@@ -453,7 +457,11 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioContext/createMediaStreamDestination",
           "support": {
             "chrome": {
-              "version_added": "14"
+              "version_added": "14",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 71"
+              ]
             },
             "chrome_android": {
               "version_added": "18"
@@ -501,7 +509,11 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioContext/createMediaStreamSource",
           "support": {
             "chrome": {
-              "version_added": "14"
+              "version_added": "14",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 71"
+              ]
             },
             "chrome_android": {
               "version_added": "18"
@@ -695,7 +707,11 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioContext/resume",
           "support": {
             "chrome": {
-              "version_added": "41"
+              "version_added": "41",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 71"
+              ]
             },
             "chrome_android": {
               "version_added": "41"
@@ -743,7 +759,11 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/AudioContext/suspend",
           "support": {
             "chrome": {
-              "version_added": "43"
+              "version_added": "43",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 56"
+              ]
             },
             "chrome_android": {
               "version_added": "43"

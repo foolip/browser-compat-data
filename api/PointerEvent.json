@@ -680,7 +680,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PointerEvent/tangentialPressure",
           "support": {
             "chrome": {
-              "version_added": "58"
+              "version_added": "57"
             },
             "chrome_android": {
               "version_added": "58"
@@ -896,7 +896,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/PointerEvent/twist",
           "support": {
             "chrome": {
-              "version_added": "58"
+              "version_added": "57"
             },
             "chrome_android": {
               "version_added": "58"

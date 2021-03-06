@@ -113,7 +113,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Event/bubbles",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -165,7 +165,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Event/cancelable",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -216,7 +216,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Event/cancelBubble",
           "support": {
             "chrome": {
-              "version_added": true,
+              "version_added": "≤43",
               "notes": "Starting with Chrome 58 and Opera 45, setting this property to false does nothing, as per <a href='https://github.com/whatwg/dom/issues/211'>spec discussion</a>."
             },
             "chrome_android": {
@@ -546,7 +546,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Event/eventPhase",
           "support": {
             "chrome": {
-              "version_added": "45"
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": "45"
@@ -703,7 +703,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Event/initEvent",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -1037,7 +1037,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Event/returnValue",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -1090,7 +1090,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Event/srcElement",
           "support": {
             "chrome": {
-              "version_added": true
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": true
@@ -1295,7 +1295,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/Event/timeStamp",
           "support": {
             "chrome": {
-              "version_added": "49",
+              "version_added": "≤43",
               "notes": "Starting with Chrome 49, Firefox 54 and Opera 36, this property returns <a href='https://developer.mozilla.org/docs/Web/API/DOMHighResTimeStamp'><code>DOMHighResTimeStamp</code></a> instead of <a href='https://developer.mozilla.org/docs/Web/API/DOMTimeStamp'><code>DOMTimeStamp</code></a>."
             },
             "chrome_android": {
