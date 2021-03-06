@@ -5566,7 +5566,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/lineWidth",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "≤43"
             },
             "chrome_android": {
               "version_added": false

@@ -130,7 +130,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration/x",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "74"
             },
             "chrome_android": {
               "version_added": "28"
@@ -183,7 +183,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration/y",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "74"
             },
             "chrome_android": {
               "version_added": "28"
@@ -236,7 +236,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration/z",
           "support": {
             "chrome": {
-              "version_added": false
+              "version_added": "74"
             },
             "chrome_android": {
               "version_added": "28"
