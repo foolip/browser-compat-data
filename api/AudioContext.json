@@ -412,7 +412,11 @@
               ]
             },
             "chrome_android": {
-              "version_added": "18"
+              "version_added": "18",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 74"
+              ]
             },
             "edge": {
               "version_added": "12"
@@ -464,7 +468,11 @@
               ]
             },
             "chrome_android": {
-              "version_added": "18"
+              "version_added": "18",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 74"
+              ]
             },
             "edge": {
               "version_added": "79"
@@ -516,7 +524,11 @@
               ]
             },
             "chrome_android": {
-              "version_added": "18"
+              "version_added": "18",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 74"
+              ]
             },
             "edge": {
               "version_added": "12"
@@ -714,7 +726,11 @@
               ]
             },
             "chrome_android": {
-              "version_added": "41"
+              "version_added": "41",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 74"
+              ]
             },
             "edge": {
               "version_added": "14"
@@ -766,7 +782,11 @@
               ]
             },
             "chrome_android": {
-              "version_added": "43"
+              "version_added": "43",
+              "maintainer_notes": [
+                "Removed in 55",
+                "Added in 56"
+              ]
             },
             "edge": {
               "version_added": "14"
