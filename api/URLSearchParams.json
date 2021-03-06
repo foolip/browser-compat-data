@@ -309,7 +309,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": "10.3"
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -366,9 +370,13 @@
               ]
             },
             "safari_ios": {
-              "version_added": true,
+              "version_added": "≤9",
               "partial_implementation": true,
-              "notes": "Removing a non-existent query parameter doesn't remove <code>?</code> from the URL. See <a href='https://webkit.org/b/193022'>bug 193022</a>."
+              "notes": "Removing a non-existent query parameter doesn't remove <code>?</code> from the URL. See <a href='https://webkit.org/b/193022'>bug 193022</a>.",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -423,7 +431,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -475,7 +487,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -530,7 +546,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -585,7 +605,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -640,7 +664,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -695,7 +723,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -750,7 +782,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -801,7 +837,7 @@
               "version_added": "11"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "11"
             },
             "samsunginternet_android": {
               "version_added": "8.0"
@@ -907,7 +943,11 @@
               ]
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9",
+              "maintainer_notes": [
+                "Removed in 10.3",
+                "Added in 11"
+              ]
             },
             "samsunginternet_android": {
               "version_added": "5.0"

@@ -240,7 +240,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -337,7 +337,7 @@
               "version_added": "11.1"
             },
             "safari_ios": {
-              "version_added": "11.3"
+              "version_added": "11"
             },
             "samsunginternet_android": {
               "version_added": false
@@ -481,7 +481,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -577,7 +577,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -721,7 +721,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -769,7 +769,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1025,7 +1025,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1121,7 +1121,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1217,7 +1217,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -1313,7 +1313,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": "5.0"
@@ -1485,7 +1485,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1533,7 +1533,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1629,7 +1629,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1725,7 +1725,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1775,7 +1775,7 @@
               "version_added": "3.1"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1823,7 +1823,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
@@ -1871,7 +1871,7 @@
               "version_added": "≤7"
             },
             "safari_ios": {
-              "version_added": true
+              "version_added": "≤9"
             },
             "samsunginternet_android": {
               "version_added": true
