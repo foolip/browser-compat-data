@@ -14,10 +14,10 @@ const entryPoints = [
   'javascript',
   'mathml',
   'svg',
-  //'webdriver',
-  //'webextensions',
-  //'xpath',
-  //'xslt',
+  // Not web exposed in the typical way:
+  // 'webdriver', 'webextensions',
+  // https://github.com/mdn/browser-compat-data/pull/9830:
+  // 'xpath', 'xslt',
 ];
 
 async function screenshot(page, url, filename, includeHeader = false) {
