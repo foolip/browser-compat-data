@@ -1,3 +1,5 @@
+const fs = require('fs/promises');
+
 const puppeteer = require('puppeteer');
 
 const bcd = require('.');
@@ -5,16 +7,28 @@ const { visit } = utils = require('./utils');
 
 const entryPoints = [
   'api',
+  //'browsers',
   'css',
   'html',
   'http',
   'javascript',
   'mathml',
   'svg',
+  //'webdriver',
+  //'webextensions',
+  //'xpath',
+  //'xslt',
 ];
 
 async function screenshot(page, url, filename, includeHeader = false) {
-  await page.goto(url);
+  const response = await page.goto(url, {
+    waitUntil: 'domcontentloaded'
+  });
+  const status = response.status();
+  if (!(status >= 200 && status <= 299)) {
+    console.warn(`${url} status is ${status}`);
+    return;
+  }
   const table = await page.waitForSelector('.bc-table');
   await page.evaluate((table, includeHeader) => {
     // Remove the header if not explicitly included.
@@ -30,6 +44,14 @@ async function screenshot(page, url, filename, includeHeader = false) {
   await table.screenshot({path: filename});
 }
 
+async function isFile(path) {
+  try {
+    const stats = await fs.stat(path);
+    return stats.isFile();
+  } catch (e) {
+    return false;
+  }
+}
 async function main() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
@@ -67,6 +89,11 @@ async function main() {
 
     // Save in screenshots/
     const filename = `screenshots/${path}.png`;
+
+    if (await isFile(filename)) {
+      includeHeader = false;
+      continue;
+    }
 
     console.log(`Taking screenshot of ${url} as ${filename}`);
     try {
