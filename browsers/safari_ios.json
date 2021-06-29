@@ -57,14 +57,14 @@
           "engine": "WebKit",
           "engine_version": "534.46",
           "release_date": "2011-10-12",
-          "safari_version": "TODO"
+          "safari_version": "5.1"
         },
         "5.1": {
           "status": "retired",
           "engine": "WebKit",
           "engine_version": "534.46",
           "release_date": "2012-03-07",
-          "safari_version": "TODO"
+          "safari_version": "5.1"
         },
         "6": {
           "status": "retired",
