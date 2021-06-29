@@ -78,7 +78,7 @@
           "engine": "WebKit",
           "engine_version": "536.26",
           "release_date": "2013-01-28",
-          "safari_version": "TODO"
+          "safari_version": "6"
         },
         "7": {
           "status": "retired",
