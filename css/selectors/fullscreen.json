@@ -90,7 +90,7 @@
               },
               {
                 "alternative_name": ":-webkit-full-screen",
-                "version_added": "37"
+                "version_added": "≤37"
               }
             ]
           },
