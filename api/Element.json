@@ -2927,9 +2927,19 @@
                 "alternative_name": "webkitfullscreenchange"
               }
             ],
-            "edge": {
-              "version_added": "≤79"
-            },
+            "edge": [
+              {
+                "version_added": "79"
+              },
+              {
+                "version_added": "12",
+                "alternative_name": "webkitfullscreenchange"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "14"
+              }
+            ],
             "firefox": [
               {
                 "version_added": "64"
@@ -3025,9 +3035,19 @@
                 "alternative_name": "webkitfullscreenerror"
               }
             ],
-            "edge": {
-              "version_added": "≤79"
-            },
+            "edge": [
+              {
+                "version_added": "79"
+              },
+              {
+                "version_added": "12",
+                "alternative_name": "webkitfullscreenerror"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "14"
+              }
+            ],
             "firefox": [
               {
                 "version_added": "64"
@@ -5617,9 +5637,19 @@
                 "alternative_name": "onwebkitfullscreenchange"
               }
             ],
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": [
+              {
+                "version_added": "79"
+              },
+              {
+                "version_added": "12",
+                "alternative_name": "onwebkitfullscreenchange"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "14"
+              }
+            ],
             "firefox": [
               {
                 "version_added": "64"
@@ -5714,9 +5744,19 @@
                 "alternative_name": "onwebkitfullscreenerror"
               }
             ],
-            "edge": {
-              "version_added": "79"
-            },
+            "edge": [
+              {
+                "version_added": "79"
+              },
+              {
+                "version_added": "12",
+                "alternative_name": "onwebkitfullscreenerror"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "14"
+              }
+            ],
             "firefox": [
               {
                 "version_added": "64"
@@ -6550,12 +6590,11 @@
                 "version_added": "79"
               },
               {
-                "version_added": "79",
+                "version_added": "12",
                 "prefix": "webkit"
               },
               {
                 "version_added": "12",
-                "prefix": "webkit",
                 "version_removed": "14"
               }
             ],
