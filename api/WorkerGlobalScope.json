@@ -84,7 +84,10 @@
         "__compat": {
           "description": "<code>error</code> event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/error_event",
-          "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onerror",
+          "spec_url": [
+            "https://html.spec.whatwg.org/multipage/indices.html#event-error",
+            "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onerror"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
@@ -350,7 +353,10 @@
         "__compat": {
           "description": "<code>offline</code> event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/offline_event",
-          "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onoffline",
+          "spec_url": [
+            "https://html.spec.whatwg.org/multipage/indices.html#event-offline",
+            "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-onoffline"
+          ],
           "support": {
             "chrome": {
               "version_added": false,
@@ -388,7 +394,10 @@
         "__compat": {
           "description": "<code>online</code> event",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/online_event",
-          "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-ononline",
+          "spec_url": [
+            "https://html.spec.whatwg.org/multipage/indices.html#event-online",
+            "https://html.spec.whatwg.org/multipage/workers.html#handler-workerglobalscope-ononline"
+          ],
           "support": {
             "chrome": {
               "version_added": false,
